@@ -1,80 +1,88 @@
-version: "v0.4"
+version: v0.4
 project:
-  name: "Six homogeneous components in the first Weyl algebra"
-  description: >-
-    Over any characteristic-zero field, two elements P and Q of the first
-    Weyl algebra satisfying QP-PQ=1 generate the algebra when P has at most
-    six nonzero homogeneous components for deg X=1 and deg Y=-1.
-    The degree, order and mass of Q are unrestricted. The proof combines
-    sparse-polynomial rigidity with internally proved Newton and Weyl-algebra
-    structural results.
+  name: Six homogeneous components in the first Weyl algebra
+  description: Over any characteristic-zero field, two elements P and Q of the first Weyl algebra satisfying
+    QP-PQ=1 generate the algebra when P has at most six nonzero homogeneous components for deg X=1 and
+    deg Y=-1. The degree, order and mass of Q are unrestricted. The proof combines sparse-polynomial rigidity
+    with internally proved Newton and Weyl-algebra structural results.
   authors:
-    - name: "Idris Ali Shaik"
+  - name: Idris Ali Shaik
   responsible_maintainers:
-    - name: "Idris Ali Shaik"
-  license: "MIT"
+  - name: Idris Ali Shaik
+  license: MIT
 sources:
-  - title: "The rank-one Dixmier conjecture for elements of mass at most six"
-    authors: ["Idris Ali Shaik"]
-    type: "article"
-    id: "Unpublished manuscript, source version 1.8"
-    location: "Theorem 1.1"
-    relationship: "formalizes"
-    author_endorsement: "participated"
-    note: >-
-      The informal manuscript precedes the formalization. Its SHA-256 is
-      5cf720da5092e8fe13650d4ebe3357ed21cf90df1684af4bc49db06801126b0a.
-      SOURCE_MANIFEST.json identifies every substantive source module before
-      extraction and the compatibility port.
-  - title: "Guccione, Guccione and Valqui: Weyl-algebra structural results"
-    authors: ["Jorge A. Guccione", "Juan J. Guccione", "Christian Valqui"]
-    type: "article"
-    id: "arXiv:2402.11135v1 and arXiv:1111.6100v3"
-    relationship: "background"
-    author_endorsement: "not-contacted"
-    note: "The six structural interfaces consumed by the theorem are proved internally."
+- title: The rank-one Dixmier conjecture for elements of mass at most six
+  authors:
+  - Idris Ali Shaik
+  type: paper
+  id: https://doi.org/10.5281/zenodo.23161793
+  location: Theorem 1.1
+  relationship: formalizes
+  author_endorsement: participated
+  note: 'Preprint version 1.10.5; Zenodo DOI reserved, publication pending. Mathematical manuscript SHA-256:
+    85145159671e864be4dd8ae3c53220de3337f787141e5bc09a20408ff1561ce8. The informal manuscript precedes
+    the formalization; SOURCE_MANIFEST.json identifies the substantive source modules and extraction hashes.'
+- title: 'Guccione, Guccione and Valqui: Weyl-algebra structural results'
+  authors:
+  - Jorge A. Guccione
+  - Juan J. Guccione
+  - Christian Valqui
+  type: paper
+  id: arXiv:2402.11135v1 and arXiv:1111.6100v3
+  relationship: background
+  author_endorsement: not-contacted
+  note: The six structural interfaces consumed by the theorem are proved internally.
 classification:
-  arxiv: ["math.RA"]
+  arxiv:
+  - math.RA
+  msc2020:
+  - 16S32
+  - 16W20
+  - 16W50
 status:
-  scope: "One mass-six generation theorem, over every characteristic-zero field."
+  scope: One mass-six generation theorem, over every characteristic-zero field.
   sorry_count: 0
   sorry_in_definitions: 0
-  axioms: ["propext", "Classical.choice", "Quot.sound"]
+  axioms:
+  - propext
+  - Classical.choice
+  - Quot.sound
   main_results:
-    - declaration: "Dixmier.Palomar.massSixGeneration"
-      file: "Solution.lean"
-      sorry_count: 0
-      axioms: ["propext", "Classical.choice", "Quot.sound"]
-      comparator_config: "comparator.json"
-      literature_dependencies: []
+  - declaration: Dixmier.Palomar.massSixGeneration
+    file: Solution.lean
+    sorry_count: 0
+    axioms:
+    - propext
+    - Classical.choice
+    - Quot.sound
+    comparator_config: comparator.json
+    literature_dependencies: []
 automation:
   methods:
-    - method: "agent"
-      framework: "OpenAI Codex"
-      tool_setup: "Lean, Mathlib, source and statement audits, and Palomar release tooling."
-      prompting_notes: "User-directed formalization and separate release preparation."
-  notes: >-
-    AI assisted proof development, diagnostics, formalization and packaging.
-    The original pinned formalization passed its full clean build and axiom
-    audit. The extracted supported-toolchain build and model axiom reports pass.
-    Comparator and independent-kernel validation require Linux and are pending.
+  - method: agent
+    framework: OpenAI Codex
+    tool_setup: Lean, Mathlib, source and statement audits, and Palomar release tooling.
+    prompting_notes: User-directed formalization and separate release preparation.
+  notes: 'AI assisted proof development, formalization and packaging. Full Linux mechanical rehearsal
+    passed for source commit b2601df23b5c26969595d8546d5b58b83de4f911, including Challenge/Solution comparison
+    and Lean, nanoda and con-ron kernel checks. Workflow: https://github.com/shaikidris/DixmierMassSix-Palomar/actions/runs/37264857021.
+    A deliberate Mathlib compatibility port targets c55e6e786f49471c72fbddbec5415808896aec1e; exact-candidate
+    proof and rendering rehearsals are required before readiness.'
 fidelity:
-  divergences: >-
-    The selected theorem retains the source field quantifiers, grading, six
-    component bound and unrestricted mate. The faithful differential-operator
-    realization is connected to the abstract first Weyl algebra by a proved
-    equivalence. This repository is a substantive extraction of the completed
+  divergences: The selected theorem retains the source field quantifiers, grading, six component bound
+    and unrestricted mate. The faithful differential-operator realization is connected to the abstract
+    first Weyl algebra by a proved equivalence. This repository is a substantive extraction of the completed
     local proof cone, with module-visibility and toolchain compatibility changes.
 review:
-  status: "agent-reviewed"
-  notes: >-
-    Source statement and dependency audits were performed with AI assistance.
-    No independent human mathematical review or novelty clearance is claimed.
-    Palomar mechanical verification and registration have not occurred.
+  status: agent-reviewed
+  notes: Source statement and dependency audits used AI assistance. The full mechanical rehearsal passed
+    on 5 October 2026; its report has no errors or warnings. No independent human review, novelty clearance
+    or Palomar registration is claimed.
 alignment:
   statements:
-    - source: "Manuscript Theorem 1.1"
-      lean: "Dixmier.Palomar.massSixGeneration"
-      module: "Solution"
-      status: "in-progress"
-      note: "Supported-toolchain build passed; exact Comparator alignment remains pending Linux validation."
+  - source: Manuscript Theorem 1.1
+    lean: Dixmier.Palomar.massSixGeneration
+    module: Solution
+    status: verified
+    note: Challenge/Solution comparison passed for historical proof commit b2601df23b5c26969595d8546d5b58b83de4f911.
+      The replacement dependency graph requires a fresh exact-candidate full rehearsal and renderer check.
