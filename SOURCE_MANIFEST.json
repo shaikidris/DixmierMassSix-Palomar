@@ -1,0 +1,2664 @@
+{
+  "mode": "EXTRACTION",
+  "source_snapshot": "../formal/evidence/2026-10-04-final-audit/source-snapshot.json",
+  "files": [
+    {
+      "module": "DixmierFormal.Main",
+      "source_file": "DixmierFormal/Main.lean",
+      "source_sha256": "73e6b13642f95eec3696a21af2ec3e32d79eb527c4190a4296b020fd362849f1",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.AppendixA1",
+      "source_file": "DixmierFormal/Scalar/AppendixA1.lean",
+      "source_sha256": "25db88e1f601e729952a67023eab39d4552784166b5c3b6e6c7746b4be701c86",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.AppendixA2",
+      "source_file": "DixmierFormal/Scalar/AppendixA2.lean",
+      "source_sha256": "4f57cc96e425570e21dafda84748600f77f6a6b6e5d665cbe5f5c1399e14287b",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.AppendixA2Power",
+      "source_file": "DixmierFormal/Scalar/AppendixA2Power.lean",
+      "source_sha256": "08fa65733c1fdf50d732dc407ad31719c75e1d781be58e58896786d5c07b108e",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.AppendixA2Recurrence",
+      "source_file": "DixmierFormal/Scalar/AppendixA2Recurrence.lean",
+      "source_sha256": "dff2814d33f0a072b5c956d7a8442c78dfc08e3ee24a684c76f1644429fa1f89",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.AppendixA2Scaling",
+      "source_file": "DixmierFormal/Scalar/AppendixA2Scaling.lean",
+      "source_sha256": "ba23d65d87d1979ec480e5da9fb0935dca1e279287eef29bbd1275d8b432ad8b",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.AppendixA2Signs",
+      "source_file": "DixmierFormal/Scalar/AppendixA2Signs.lean",
+      "source_sha256": "268f85b7bf806db5d7c7e670823e6d9f333eefebb71405f85c0742a5f0389dcd",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.AppendixA3",
+      "source_file": "DixmierFormal/Scalar/AppendixA3.lean",
+      "source_sha256": "895a0b262fb8417ae962fef4c6e1e0db065802038360e4965831cdc9c065c597",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.AppendixA3Boundary",
+      "source_file": "DixmierFormal/Scalar/AppendixA3Boundary.lean",
+      "source_sha256": "f6f22a5212b7b04a25ccab6b6bd28770e80d3b0d7e263e978b45a7e6a3f2d142",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.AppendixA3Coefficients",
+      "source_file": "DixmierFormal/Scalar/AppendixA3Coefficients.lean",
+      "source_sha256": "a3321122e98f2d538a8d68dda76cb8441411de693af6359a8f6d2bb5f29feb28",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.AppendixA3ComplexRoot",
+      "source_file": "DixmierFormal/Scalar/AppendixA3ComplexRoot.lean",
+      "source_sha256": "84017b4d8557ccda26d3ea252a0995cbd5fc4a643eb512b0f8125a5284720b05",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.AppendixA3Equation",
+      "source_file": "DixmierFormal/Scalar/AppendixA3Equation.lean",
+      "source_sha256": "2d2c185bfd12f449e3ae0e57e50609bedef6a3f83803fa915102cbe41accb8d6",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.AppendixA3FactorPower",
+      "source_file": "DixmierFormal/Scalar/AppendixA3FactorPower.lean",
+      "source_sha256": "4dfce9eed97d22f9a98548b172bdb9bdd948bbf00e6507a0b59b63cfa76e0844",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.AppendixA3FirstSigns",
+      "source_file": "DixmierFormal/Scalar/AppendixA3FirstSigns.lean",
+      "source_sha256": "f7d4439dbe8450590e20d5c8071a4d739111d6b44c1ea3adfa44e686f11ac4fc",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.AppendixA3Formulas",
+      "source_file": "DixmierFormal/Scalar/AppendixA3Formulas.lean",
+      "source_sha256": "95fe1a86e0fffe48e914edb93dec23fa714ad1ef6fbd7bdaf6898406bec6e6f9",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.AppendixA3Normalize",
+      "source_file": "DixmierFormal/Scalar/AppendixA3Normalize.lean",
+      "source_sha256": "88958267e0db97bc7b890bf188f750ede20e73bf57cd0a70bc5812277b080950",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.AppendixA3NormalizedPositive",
+      "source_file": "DixmierFormal/Scalar/AppendixA3NormalizedPositive.lean",
+      "source_sha256": "0d79b340de4ddf23941637e4e3a99b1a2239f9456d97aca87c56810f789727b7",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.AppendixA3PositivePower",
+      "source_file": "DixmierFormal/Scalar/AppendixA3PositivePower.lean",
+      "source_sha256": "f850e6505bc6cb2e3d7bbcc96e23efa5d347420b87ba9262c93124375bb0cd80",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.AppendixA3PositiveReal",
+      "source_file": "DixmierFormal/Scalar/AppendixA3PositiveReal.lean",
+      "source_sha256": "f9db7899bca336e7a345b749cddb7f53a84a57b05a34691c720b044da2723386",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.AppendixA3QuadraticBarrier",
+      "source_file": "DixmierFormal/Scalar/AppendixA3QuadraticBarrier.lean",
+      "source_sha256": "97cac59ad51ece817c6adf98bd8187ce7629d37b4ce8f05ee0a38f6e30535aac",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.AppendixA3Residual",
+      "source_file": "DixmierFormal/Scalar/AppendixA3Residual.lean",
+      "source_sha256": "3474bb8293c26b9aa1833002bdd6ec1c8c5a4da65549dfdebbd514dd08dcb302",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.AppendixA3ThirdSign",
+      "source_file": "DixmierFormal/Scalar/AppendixA3ThirdSign.lean",
+      "source_sha256": "bb72cf7e7b86649e4f149be334d8222215e4ca64bc6f09029273e8998e82242f",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.AppendixFactorDegree",
+      "source_file": "DixmierFormal/Scalar/AppendixFactorDegree.lean",
+      "source_sha256": "679dca76bed27de06ead7863c6e9eb0f3af22bb13b9a5ad2d11de169d18e6ec4",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.AppendixFactorEquation",
+      "source_file": "DixmierFormal/Scalar/AppendixFactorEquation.lean",
+      "source_sha256": "bba7a18ded8299c7a548c3ed3885140a5cbab86cf838176b90b77cf1baee0241",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.AppendixFactorization",
+      "source_file": "DixmierFormal/Scalar/AppendixFactorization.lean",
+      "source_sha256": "f9c903dd904dfb1e91cd03047a364b9abf1da774d561fac7c5ef8701a06bce84",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.AppendixFullFactor",
+      "source_file": "DixmierFormal/Scalar/AppendixFullFactor.lean",
+      "source_sha256": "45ce3255ef19c0a2956a348c5c515aa90a2d6c5dee48244d139aa9dc82602130",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.AppendixRootStructure",
+      "source_file": "DixmierFormal/Scalar/AppendixRootStructure.lean",
+      "source_sha256": "417fa504577a49534f6aa375502bd9c0b8bf44499c8d4c9aa0055a42d37f9118",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.Classification",
+      "source_file": "DixmierFormal/Scalar/Classification.lean",
+      "source_sha256": "82cc5e09ecdafc0eafc1e2f2c68056645c372126b6fada706a73f80475b7827b",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.Companion",
+      "source_file": "DixmierFormal/Scalar/Companion.lean",
+      "source_sha256": "04291e6db0db13efe892b0c2e2a600e8ef0bec99aba6f621f0f4743b2888b0bc",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.Defs",
+      "source_file": "DixmierFormal/Scalar/Defs.lean",
+      "source_sha256": "41432ed05d27830365f8ee283993b3f9e9562f3f97712e2b5e785ba0a10b5696",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.DerivativeBracketRoots",
+      "source_file": "DixmierFormal/Scalar/DerivativeBracketRoots.lean",
+      "source_sha256": "c1004b3f33beb6bec6be65553e0d71e5e1f05dc09d08f254d7a0769fbd34bcec",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.DiagonalLowestOrder",
+      "source_file": "DixmierFormal/Scalar/DiagonalLowestOrder.lean",
+      "source_sha256": "39cd451ead2d60b867ecc2d69b8ddb94f76a39776754c88983bc4adbc399adb9",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.ExpQuadratic",
+      "source_file": "DixmierFormal/Scalar/ExpQuadratic.lean",
+      "source_sha256": "2ce706c4b85d0331da861c51120c2b0a9ea60a6864a5a159cac1f9dcd0c27dce",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.FiniteDifference",
+      "source_file": "DixmierFormal/Scalar/FiniteDifference.lean",
+      "source_sha256": "674eb0fddc95ce8df8121ee3674b675e4693a35841c105614041cddc4510a94b",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.GeneralCompanion",
+      "source_file": "DixmierFormal/Scalar/GeneralCompanion.lean",
+      "source_sha256": "9215dc03c7aec2d478ff7e5402cf12a5ed7f6c0f9b94319b69e7dde665a3199a",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.GeneralRootDegree",
+      "source_file": "DixmierFormal/Scalar/GeneralRootDegree.lean",
+      "source_sha256": "caa3a27a3b8a69192129dd5619155262a8d35a2a54f56c555713ae54752768bf",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.HorizontalCompanion",
+      "source_file": "DixmierFormal/Scalar/HorizontalCompanion.lean",
+      "source_sha256": "a6ef9d8c9c6dcfffdffb89dd632dff74c0b784c1ef21d144ffa78406469a0c55",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.HorizontalSquare",
+      "source_file": "DixmierFormal/Scalar/HorizontalSquare.lean",
+      "source_sha256": "9a58bf7a30739dd9b87f7717400ab385fa22c1a775ea15c46f8dff25a25b9641",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.Moments",
+      "source_file": "DixmierFormal/Scalar/Moments.lean",
+      "source_sha256": "d0787c2f86f49d42309dc8327323b32c0eba2165907707e3f6595c525f3d77b2",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.RealRoots",
+      "source_file": "DixmierFormal/Scalar/RealRoots.lean",
+      "source_sha256": "fc6bac7b49136671690676d41c4bba69988617bfe80e51f22a32e5983959afd6",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.Scaling",
+      "source_file": "DixmierFormal/Scalar/Scaling.lean",
+      "source_sha256": "d548a09a58d60f9c829d56eb4a965afce567070b2612175197cbd19e39408d08",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.Section6Controls",
+      "source_file": "DixmierFormal/Scalar/Section6Controls.lean",
+      "source_sha256": "9172b3caab33e67ca5efe178df67a13e8ae9a711d519f7da84462e2853e556d6",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.Section6Roots",
+      "source_file": "DixmierFormal/Scalar/Section6Roots.lean",
+      "source_sha256": "3f1cd3f3549649e0aae444f77dc5db9eee64ec1f1fe722759749eeeac5a9d008",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.SixTerm",
+      "source_file": "DixmierFormal/Scalar/SixTerm.lean",
+      "source_sha256": "1d1c84de9da8cffda19c012da4c88bd36936da2a6e5ac754e93e55fb85d113e4",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.SparseRoots",
+      "source_file": "DixmierFormal/Scalar/SparseRoots.lean",
+      "source_sha256": "6b7617f1ba5a668842df5cec59e8d6b6181c0ebca49a7fbafb5119d94668c4ae",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.Statements",
+      "source_file": "DixmierFormal/Scalar/Statements.lean",
+      "source_sha256": "4fa3450e22991a467cf89e2a066ef74b124a5007c5e4a3ef919601a73b1bb709",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.TwoRoots",
+      "source_file": "DixmierFormal/Scalar/TwoRoots.lean",
+      "source_sha256": "e2cc52fe928c76e41a8721fc75df61ef5075bb57f4aa47469802352645d7889e",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Scalar.WeightedFaceRigidity",
+      "source_file": "DixmierFormal/Scalar/WeightedFaceRigidity.lean",
+      "source_sha256": "57f8f7c83819f2d1fbc038f576d16a311eea2cf4cf125eef6c3faabc00b6ca18",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.Abstract",
+      "source_file": "DixmierFormal/Weyl/Abstract.lean",
+      "source_sha256": "9bfed507bb1c52fb989328c660f9005f30cd6dc31f95da0ac7f1eccfc39b2883",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.AffineExactPair",
+      "source_file": "DixmierFormal/Weyl/AffineExactPair.lean",
+      "source_sha256": "cd5b258ede976276265dd49e954254630b711c9c65ccab755c93da618a33b487",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.AxisNegativeTopMass",
+      "source_file": "DixmierFormal/Weyl/AxisNegativeTopMass.lean",
+      "source_sha256": "28187abda65b0a85a8e546b9a2283ce960d05ea78dff17ade57e5cb67d29d29a",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.BivariateRatio",
+      "source_file": "DixmierFormal/Weyl/BivariateRatio.lean",
+      "source_sha256": "9febe2f35d38c8114948f7d2fc1f0d57b3b084029551adcb5ca63cfc9a645019",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CommonPowerFactorization",
+      "source_file": "DixmierFormal/Weyl/CommonPowerFactorization.lean",
+      "source_sha256": "a99d3e129f2253f0f3e4867341d0e5b48fd30452508e68ff9854bc2d6291a5b4",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CompanionBase",
+      "source_file": "DixmierFormal/Weyl/CompanionBase.lean",
+      "source_sha256": "42403178019235a80b1e77bcf1603822c40c246c597f80c12119c14a267f6d8c",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CompanionLattice",
+      "source_file": "DixmierFormal/Weyl/CompanionLattice.lean",
+      "source_sha256": "da8aac41362408f8c4089d40c5124aa531fc7585623dd3f7bb2e87b24560d73c",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CompanionNonmonomial",
+      "source_file": "DixmierFormal/Weyl/CompanionNonmonomial.lean",
+      "source_sha256": "e6c2b96872c9a020dc6c5b1d442496ca5390dee03b5c2bad7fda6fe8b8a9ed41",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CompanionPowerCancellation",
+      "source_file": "DixmierFormal/Weyl/CompanionPowerCancellation.lean",
+      "source_sha256": "40b9b9c02d6c774706e618c5d5092496c7439acc25067ee6bd50f4ccbe87420a",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CompanionShape",
+      "source_file": "DixmierFormal/Weyl/CompanionShape.lean",
+      "source_sha256": "6d5f9333b45e970bafcf86e71a60dd1e325ea92411a5c54dda94484a287c7864",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CompleteDiagonalMonomialCases",
+      "source_file": "DixmierFormal/Weyl/CompleteDiagonalMonomialCases.lean",
+      "source_sha256": "f72ab848aa248159a1dd37686cfbd009a7b7e525208a57a8b82aa6f46fb474e7",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.ComplexGeneration",
+      "source_file": "DixmierFormal/Weyl/ComplexGeneration.lean",
+      "source_sha256": "f3e855e074c3f62fb46561daf56fdbe4ecb71057d77e84cdc8cf3ebc043d53b8",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CornerAdjacentDivisibility",
+      "source_file": "DixmierFormal/Weyl/CornerAdjacentDivisibility.lean",
+      "source_sha256": "122fd475b56b2ce686743fc1917b0ad40abe0acca7bd2da0679c802284acfa8d",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CornerDirectionArithmetic",
+      "source_file": "DixmierFormal/Weyl/CornerDirectionArithmetic.lean",
+      "source_sha256": "01bbf9343232810e6befb29450f91d2d706c05838167a3f41472d85eeef23653",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CornerEndpointGrades",
+      "source_file": "DixmierFormal/Weyl/CornerEndpointGrades.lean",
+      "source_sha256": "ca389003e08d3da00b4a7d66408ab69d309b523ed24893354127b23e442dd80d",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CornerFiniteDirections",
+      "source_file": "DixmierFormal/Weyl/CornerFiniteDirections.lean",
+      "source_sha256": "a273cbabf73471f543ffbc7aed48593c1683f058d94f743e19abace849d30f28",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CornerLeadingBracket",
+      "source_file": "DixmierFormal/Weyl/CornerLeadingBracket.lean",
+      "source_sha256": "00f98fcf91c1bbb5c0455922e861500825dcf38274658fa7a974a8ca84157845",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CornerProportionalLattice",
+      "source_file": "DixmierFormal/Weyl/CornerProportionalLattice.lean",
+      "source_sha256": "e1da33f904c19cc89b46c390c71a6d765977f14192e52509f0e547416227b906",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CornerQuadraticRootCut",
+      "source_file": "DixmierFormal/Weyl/CornerQuadraticRootCut.lean",
+      "source_sha256": "dfae2762d62afdd8636159db1d6222c490df5a4fdcbf7c2c5a84fc1615fb14a6",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CornerRootOrderRatio",
+      "source_file": "DixmierFormal/Weyl/CornerRootOrderRatio.lean",
+      "source_sha256": "712dbf81a9277474536b91e8c6efba31250d531864b4a7327f076a530a535523",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CounterexampleCutFace",
+      "source_file": "DixmierFormal/Weyl/CounterexampleCutFace.lean",
+      "source_sha256": "d525ec8b591b9ea2ecbde1c7a15b2e6da2ff318f7837f231e3969c0a946b2e20",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CrossingBaseShape",
+      "source_file": "DixmierFormal/Weyl/CrossingBaseShape.lean",
+      "source_sha256": "ead5a982fac1f2a6d2aadee4823273a2da1c9ec2e50a9d99575b6a97f59063cc",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CrossingCutConsumer",
+      "source_file": "DixmierFormal/Weyl/CrossingCutConsumer.lean",
+      "source_sha256": "951c4dd68ede01530160426333a27a8c6ffc3a67ba4ce2afd756a3a53cde8abb",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CrossingCutRootCount",
+      "source_file": "DixmierFormal/Weyl/CrossingCutRootCount.lean",
+      "source_sha256": "3c2427d05d8c5017bffc8ba28856effb0ad94acd6eab90ac4458b7926306996f",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CrossingExpandMultiplicity",
+      "source_file": "DixmierFormal/Weyl/CrossingExpandMultiplicity.lean",
+      "source_sha256": "584aff1c28b0f271eb996a841c8d03b711c357276de645b02c5a5bcb57ac18cb",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CrossingFaceCutPolynomial",
+      "source_file": "DixmierFormal/Weyl/CrossingFaceCutPolynomial.lean",
+      "source_sha256": "e2226dbc3d2152afec0fe96f25fffd12b4cbd9a5d3eccfa284b75046a63244b2",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CrossingFaceEndpoint",
+      "source_file": "DixmierFormal/Weyl/CrossingFaceEndpoint.lean",
+      "source_sha256": "119e87728f1324ab22aea3e74557219e37f513f6001178de8ae0ab71e2ab3be8",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CrossingFaceStart",
+      "source_file": "DixmierFormal/Weyl/CrossingFaceStart.lean",
+      "source_sha256": "dacc146191f2e9da9a39d49bab1534c8e5546c82b0cea84d937f0400ec4720ae",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CrossingFaceSupport",
+      "source_file": "DixmierFormal/Weyl/CrossingFaceSupport.lean",
+      "source_sha256": "be2f13be1dc1af5479b32513acc91436f9138a013696591a0c94e43d6b6fed1d",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CrossingFaceWeight",
+      "source_file": "DixmierFormal/Weyl/CrossingFaceWeight.lean",
+      "source_sha256": "0e6477662af196ad70f9cb54113bd63c2e65c9e95bdd58f5b5ca0bcbe043b32d",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CrossingGeneralFaceWeight",
+      "source_file": "DixmierFormal/Weyl/CrossingGeneralFaceWeight.lean",
+      "source_sha256": "0ac8b78339627c0bc82180133a1e0af92f0ebc026c75fef0d62a586e46590ec8",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CrossingGrade",
+      "source_file": "DixmierFormal/Weyl/CrossingGrade.lean",
+      "source_sha256": "c493ebf9cdfcff5e234fafb12015fea141fbcab14b32a67825ff55f5e3fb6a99",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CrossingMassSix",
+      "source_file": "DixmierFormal/Weyl/CrossingMassSix.lean",
+      "source_sha256": "75237d76d41095e0e9b5e4473f0809c4fdaca100f8b3c1cc168cb904f6e43ccf",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CrossingMultiplicity",
+      "source_file": "DixmierFormal/Weyl/CrossingMultiplicity.lean",
+      "source_sha256": "9457434a613d12e2608fcf3a1f9d8ca6c1b309be66ee7968b6dcf1e62cac1b0f",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CrossingScalarBridge",
+      "source_file": "DixmierFormal/Weyl/CrossingScalarBridge.lean",
+      "source_sha256": "fa6ce5e79974b9e77007f0739b79e04d7b71f2427a2c72719d323691ee075d60",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CrossingTermCount",
+      "source_file": "DixmierFormal/Weyl/CrossingTermCount.lean",
+      "source_sha256": "10948d06f9685ce118581cdc5f05d48dae20a94d895830b2ae4406552a2dd6ae",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.CutCornerNormalization",
+      "source_file": "DixmierFormal/Weyl/CutCornerNormalization.lean",
+      "source_sha256": "eb9a5966ad14b4e5a88048c3c9e0d661b2a43473e5b8c750f1d5efd7bdf70d56",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.Defs",
+      "source_file": "DixmierFormal/Weyl/Defs.lean",
+      "source_sha256": "286acb8dbdb089fe295fa6e5e74968be0530c7b152923a07b18d47500d1127b3",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.DerivativeStableKernel",
+      "source_file": "DixmierFormal/Weyl/DerivativeStableKernel.lean",
+      "source_sha256": "c04a16467eaf9b8f4e03e6a29691b888a14c853973037fcdc3d4f03147c5eb42",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.DescentTermination",
+      "source_file": "DixmierFormal/Weyl/DescentTermination.lean",
+      "source_sha256": "2516ffec35914d60b494fa6acb08dc60d43121c2718cd1c6af16598d725a55ae",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.DiagonalCaseReduction",
+      "source_file": "DixmierFormal/Weyl/DiagonalCaseReduction.lean",
+      "source_sha256": "b47acbc802efd9aab2af54ac99c3b93cdff88ea7301b5e639091a1fa265c5050",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.DiagonalHorizontalEndpoint",
+      "source_file": "DixmierFormal/Weyl/DiagonalHorizontalEndpoint.lean",
+      "source_sha256": "1fe83828c1f63fed9008d5f85dcb89474c99629a2834fc9060cfc0d9c3b08d46",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.DiagonalPureBinomialMass",
+      "source_file": "DixmierFormal/Weyl/DiagonalPureBinomialMass.lean",
+      "source_sha256": "08eca3d8102453c94afa7af97df16e37237daf393dd1b4e53970ee2c7a5ce7ca",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.DiagonalTwoRootDegree",
+      "source_file": "DixmierFormal/Weyl/DiagonalTwoRootDegree.lean",
+      "source_sha256": "b880c7f3fa8283fc6abbcd6e58e6cc05ae1fe44978bc6d43340e102aab3b163b",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.DiagonalXFactorDispatch",
+      "source_file": "DixmierFormal/Weyl/DiagonalXFactorDispatch.lean",
+      "source_sha256": "c8f01f6f8095be4ceffb716bc17dbefaf3c18513a1c9acdbdd59b7655119f2aa",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.DiagonalYFactorDispatch",
+      "source_file": "DixmierFormal/Weyl/DiagonalYFactorDispatch.lean",
+      "source_sha256": "d3b15133fc1aa4094052ed7ab35fd04f724fb65e973014f641e2b6bee7d6c13a",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.DiagonalYFactorMass",
+      "source_file": "DixmierFormal/Weyl/DiagonalYFactorMass.lean",
+      "source_sha256": "a13b81b87d74913ce6dc36c3f8c4d46301217dd520a42d177b167c1dd8377ce2",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.EulerPoisson",
+      "source_file": "DixmierFormal/Weyl/EulerPoisson.lean",
+      "source_sha256": "c4c82668150db678aa97f412364e91fae478fae40e3782eccaf14fdab4ab095f",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.ExactPairWordDerivatives",
+      "source_file": "DixmierFormal/Weyl/ExactPairWordDerivatives.lean",
+      "source_sha256": "c7d08c7531902e706fb8d614874e005df6be41ddfd238f08efb6f2fe468b5301",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.ExactPairWordEvaluation",
+      "source_file": "DixmierFormal/Weyl/ExactPairWordEvaluation.lean",
+      "source_sha256": "8202c92b5dc26a699d4aae132dfd35a282a4008b30a1310e3864211365eb02f4",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.ExactPairWordGrowth",
+      "source_file": "DixmierFormal/Weyl/ExactPairWordGrowth.lean",
+      "source_sha256": "3e3cd23b5da2ea0dff9c0813aadc9cd5eb0534e7443a4145ef8378ad02bd8183",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.FaceCancellation",
+      "source_file": "DixmierFormal/Weyl/FaceCancellation.lean",
+      "source_sha256": "a6203964cf5eaf761fbaa26771083bfd570a80ba98d4187cba1c76a7ddd1b64b",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.FaceCutMass",
+      "source_file": "DixmierFormal/Weyl/FaceCutMass.lean",
+      "source_sha256": "cfc5eb36ab81a6139489f9d8a09c9f46e3c80e16e35fc2ae7f1fee1bcc968233",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.FaceMass",
+      "source_file": "DixmierFormal/Weyl/FaceMass.lean",
+      "source_sha256": "7ad90d29bc4f0e69dbe0fe7059fb06811dabca37c494e63afd10f375b0417859",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.FieldArbitraryGeneration",
+      "source_file": "DixmierFormal/Weyl/FieldArbitraryGeneration.lean",
+      "source_sha256": "465b964d52846f0bae2a8eb9237659a6b550e8d59d31e54d8a068a8fb17fb766",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.FieldBaseChange",
+      "source_file": "DixmierFormal/Weyl/FieldBaseChange.lean",
+      "source_sha256": "e2fda2565f92f496327e3c96bb78442ce7e945022ba0a4208f18927c3e3a06bb",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.FieldBaseChangePBW",
+      "source_file": "DixmierFormal/Weyl/FieldBaseChangePBW.lean",
+      "source_sha256": "6c517a5c796e893d93845a50fe7b2b3c54956588a453d90256198c0ccfabdaf6",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.FieldCountability",
+      "source_file": "DixmierFormal/Weyl/FieldCountability.lean",
+      "source_sha256": "1a6d6c91a4d9908fa23cf364c62db30da8a9f6520c2033d646a1ced059b5ecbe",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.FieldDescentLinear",
+      "source_file": "DixmierFormal/Weyl/FieldDescentLinear.lean",
+      "source_sha256": "26e66c768d309d5814f6f9c1187de76fdbb0f1002f464be875bdb52d27b2fd37",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.FieldGenerationDescent",
+      "source_file": "DixmierFormal/Weyl/FieldGenerationDescent.lean",
+      "source_sha256": "0e266d2d1694c79ce48a197e02fc1d81f955f200917d3f33eb7e12ffa6dc97d8",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.FieldSpanDescent",
+      "source_file": "DixmierFormal/Weyl/FieldSpanDescent.lean",
+      "source_sha256": "49e547cccf11c4ac9c014cd929fc7af5c7a6c85e89f200f26df6808376eb24bb",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.FilteredCentralizerRank",
+      "source_file": "DixmierFormal/Weyl/FilteredCentralizerRank.lean",
+      "source_sha256": "a0c6ffbf70e06008a458617e8d78809d2fa956d9ef7eee309c86ab6187f6ffa5",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.FiniteCutCornerDescent",
+      "source_file": "DixmierFormal/Weyl/FiniteCutCornerDescent.lean",
+      "source_sha256": "9dba55b87ee00044de190ba46e481d3aee6458470e3538c981f991921514465c",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.FiniteCutCornerState",
+      "source_file": "DixmierFormal/Weyl/FiniteCutCornerState.lean",
+      "source_sha256": "cb0265860c6c150d5a3da6c4028463dc1c4293246a950c462b4f4af49f26ef33",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.FiniteFiltrationRank",
+      "source_file": "DixmierFormal/Weyl/FiniteFiltrationRank.lean",
+      "source_sha256": "321b885e40e38b2b97cff91d8883978f2164b117e42dde73615bae4ee18dc832",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.FiniteSupportAdjacentDirection",
+      "source_file": "DixmierFormal/Weyl/FiniteSupportAdjacentDirection.lean",
+      "source_sha256": "69980c737eddde1f447386db19145254a6f8aa25963908f928916db208d1a6c6",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.Fourier",
+      "source_file": "DixmierFormal/Weyl/Fourier.lean",
+      "source_sha256": "330c287954180779d990599ff1a0093192a6a1bb107829ec3d968cc5efa2d026",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.FourierBoundaryOccupancy",
+      "source_file": "DixmierFormal/Weyl/FourierBoundaryOccupancy.lean",
+      "source_sha256": "fe7787d945a36f3bf73ba7f8fe408a9f74da424b3fd46484f56f21a4497c9d2e",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.FourierBoundarySupport",
+      "source_file": "DixmierFormal/Weyl/FourierBoundarySupport.lean",
+      "source_sha256": "6e9dbef28c2a6c2d61e43c0861ec23e8d8dfcd0d4d01aa8ff68ec1ff371867dd",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.FourierDiagonalEndpoints",
+      "source_file": "DixmierFormal/Weyl/FourierDiagonalEndpoints.lean",
+      "source_sha256": "bbc84d4a4c33b9a7620912c7ffaa9ccc95b15f77ea55d6efb2eb0377cc07a09d",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.FourierDiagonalSymbol",
+      "source_file": "DixmierFormal/Weyl/FourierDiagonalSymbol.lean",
+      "source_sha256": "d7b3b94fd642096b62f00dd5912aaad13ec22cfced2922b3c282a96187a5a198",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVActualFaceAdjacent",
+      "source_file": "DixmierFormal/Weyl/GGVActualFaceAdjacent.lean",
+      "source_sha256": "33d5c0193c30cd8c3d1a263173c25a071ab927dd18f4410972bb583d037c642a",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVCaseFieldAdapter",
+      "source_file": "DixmierFormal/Weyl/GGVCaseFieldAdapter.lean",
+      "source_sha256": "39ed2680ad4fbf3b336b10750d1dd12e9a0a71cb8bbee1985c4669e7c9a0f927",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVCommonFaceDirections",
+      "source_file": "DixmierFormal/Weyl/GGVCommonFaceDirections.lean",
+      "source_sha256": "3df500159e77ea2798728e8c0a28e1b486f43b17d2a50d710a8e7123604a4cc1",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVCommonFaceEndpoints",
+      "source_file": "DixmierFormal/Weyl/GGVCommonFaceEndpoints.lean",
+      "source_sha256": "3d84cd9b5a249e115b10d899b8e0ebc5a5623d2ebd3facefdac401f81893b422",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVCommonRootOccupiedEndpoints",
+      "source_file": "DixmierFormal/Weyl/GGVCommonRootOccupiedEndpoints.lean",
+      "source_sha256": "b4e3877ee3082b2f6aa210fe8303d9233c714efa3f7451979724f03158f4e264",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVCompanionAdapter",
+      "source_file": "DixmierFormal/Weyl/GGVCompanionAdapter.lean",
+      "source_sha256": "266820e5a26ea903230c68bf4ac51a58033652544421863de2f3297a9fe5345b",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVCompanionJosephFrontier",
+      "source_file": "DixmierFormal/Weyl/GGVCompanionJosephFrontier.lean",
+      "source_sha256": "1b3b615669e78399578cdcbdb4e3f8f544894af2fa5457a2262727a3af6242d7",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVCompanionOperatorLift",
+      "source_file": "DixmierFormal/Weyl/GGVCompanionOperatorLift.lean",
+      "source_sha256": "b05e4a18dc9ad9cbc6c98df4c8e98628b6f7a1045adc54ccd73d0644d4707690",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVCutCornerProved",
+      "source_file": "DixmierFormal/Weyl/GGVCutCornerProved.lean",
+      "source_sha256": "ed7299e62decfae9e0367e83fe113459a8056f33c3acadddbfa9a4f11bc461e3",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVDegreeBoundProved",
+      "source_file": "DixmierFormal/Weyl/GGVDegreeBoundProved.lean",
+      "source_sha256": "bc8936dbbf36f0befa62a4acb33ee0ee17cdae2b867a8bb909a7102b7c199e50",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVDegreeCutInputs",
+      "source_file": "DixmierFormal/Weyl/GGVDegreeCutInputs.lean",
+      "source_sha256": "3898346bb5fb4b6a93c64cbadcc35d82a41beebcb5f8b43e3bbf3154256f0456",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVDegreeFiniteCheck",
+      "source_file": "DixmierFormal/Weyl/GGVDegreeFiniteCheck.lean",
+      "source_sha256": "729346a5cd4604034c8ae269f2e79b61efe1766665dc91b876c035f7766a39bd",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVDegreeNormalization",
+      "source_file": "DixmierFormal/Weyl/GGVDegreeNormalization.lean",
+      "source_sha256": "341ad303fd377d242774ed73ea14e0d12b3a86fb69b30bed8dd81f578ef5aeae",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVDegreeOnlyInputs",
+      "source_file": "DixmierFormal/Weyl/GGVDegreeOnlyInputs.lean",
+      "source_sha256": "d51b513e04c7f681a7da1cfde1105c6c6bfa7ba0887072f7f72f1897091f7490",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVDiagonalCutFactorization",
+      "source_file": "DixmierFormal/Weyl/GGVDiagonalCutFactorization.lean",
+      "source_sha256": "b0da86cea1a16387d22fd9a30cd48b0917662ea815601d345b139f1a76c6b7e8",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVDiagonalFaceClassification",
+      "source_file": "DixmierFormal/Weyl/GGVDiagonalFaceClassification.lean",
+      "source_sha256": "3c98304d04810b748d3cc72f2ce7b05b460bcb45bbb6c858ed44e04a378075b3",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVDiagonalMonomialCases",
+      "source_file": "DixmierFormal/Weyl/GGVDiagonalMonomialCases.lean",
+      "source_sha256": "db61335ce118f8429c1fcb37184d2b5ad707ed6333c6bca87f511da8a67d6ab2",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVDiagonalRootBudget",
+      "source_file": "DixmierFormal/Weyl/GGVDiagonalRootBudget.lean",
+      "source_sha256": "01fdeadcceaac023ab0093a51a46901c9fc944df8fc6ff4ed319be3ce31d7784",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVDiagonalStartAdapter",
+      "source_file": "DixmierFormal/Weyl/GGVDiagonalStartAdapter.lean",
+      "source_sha256": "5b29a61446bf2f84a0d4850d98cab3e3d954716db686952f75d657ce95f12ef7",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVDirectionGradeChain",
+      "source_file": "DixmierFormal/Weyl/GGVDirectionGradeChain.lean",
+      "source_sha256": "2b9a999f4633e4cdf47351cf2db21efea989a311d8536e2bcbb6c7761550835a",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVFaceFirstDownwardTilt",
+      "source_file": "DixmierFormal/Weyl/GGVFaceFirstDownwardTilt.lean",
+      "source_sha256": "de9dee87827997637b1f3244e7c9385828ad99a3df6345d38c25989cbdc0e31a",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVFaceFirstTilt",
+      "source_file": "DixmierFormal/Weyl/GGVFaceFirstTilt.lean",
+      "source_sha256": "f4389e7eeb4d5fba50a4c45e7da67452df8e58a7d0e9c2a1449737479d079c8d",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVFaceOrderGeometry",
+      "source_file": "DixmierFormal/Weyl/GGVFaceOrderGeometry.lean",
+      "source_sha256": "38d6d56fa18bac04dc15591ed3b1c1beb2b875789c28f099e4da21c0a1e7fc34",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVFiniteFaceSlopes",
+      "source_file": "DixmierFormal/Weyl/GGVFiniteFaceSlopes.lean",
+      "source_sha256": "6805d9ebeb12867728825f4712852428ed558d8c0f5578029ed988a17321dcd6",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVFourierRectangle",
+      "source_file": "DixmierFormal/Weyl/GGVFourierRectangle.lean",
+      "source_sha256": "63de5aa40f811b89f5f258bd0e3589089fc00b5c87440a42a92cbd713e898593",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVGeometricRemainingInputs",
+      "source_file": "DixmierFormal/Weyl/GGVGeometricRemainingInputs.lean",
+      "source_sha256": "9962f20b9da988d73e55e0639c4d92c003a2e547b9a4ff2bbdb79f5e9ada59ba",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVGlobalFacePowerRatio",
+      "source_file": "DixmierFormal/Weyl/GGVGlobalFacePowerRatio.lean",
+      "source_sha256": "243ce11294b609e325492dc2747f27d1285e82670a9c1d112edcec90a14e943e",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVGlobalLeadingPoissonZero",
+      "source_file": "DixmierFormal/Weyl/GGVGlobalLeadingPoissonZero.lean",
+      "source_sha256": "2c1fc5607dc155ed5425af6355b19a6fcdfbad56d99bb583936a373462ed7566",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVGradesAdapter",
+      "source_file": "DixmierFormal/Weyl/GGVGradesAdapter.lean",
+      "source_sha256": "f7a357c8a0207a40c5fd093d9c81042c346c7350b705265f352c4e36dad0a7b4",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVHorizontalMinimality",
+      "source_file": "DixmierFormal/Weyl/GGVHorizontalMinimality.lean",
+      "source_sha256": "35a6e9e5d732035b9590c5b2475890ca1b26ceb254fdf3b213dbe29ff1a457ce",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVHorizontalStandardCut",
+      "source_file": "DixmierFormal/Weyl/GGVHorizontalStandardCut.lean",
+      "source_sha256": "49ca1aee0c0dbf01b350700732d5cb586c931b3d9ecd321c04628b3cf482cc26",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVJosephSourceAdapter",
+      "source_file": "DixmierFormal/Weyl/GGVJosephSourceAdapter.lean",
+      "source_sha256": "ca9e2aa5a9f7e0de2e1d43b41ce5b1c5e98e54ddb728fa56cfbb49791f43810a",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVLinearShearMinimality",
+      "source_file": "DixmierFormal/Weyl/GGVLinearShearMinimality.lean",
+      "source_sha256": "b39231f6c75e12262eff4a49d9faf51710dac7e0eacd973c6a25db4a3c93e3cf",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVMinimalCrossingPair",
+      "source_file": "DixmierFormal/Weyl/GGVMinimalCrossingPair.lean",
+      "source_sha256": "8392e5fe2db3480c2d463d58fa181c01023a2babd87d950a950f93b396e4bfaa",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVMinimalDegreeNondivisibility",
+      "source_file": "DixmierFormal/Weyl/GGVMinimalDegreeNondivisibility.lean",
+      "source_sha256": "5bec0c4eaf9ba4eabd953825e3c4f3557de1eb88d87209e56e1abb799a18e48d",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVMinimalPair",
+      "source_file": "DixmierFormal/Weyl/GGVMinimalPair.lean",
+      "source_sha256": "b4eb70041dc8d299aae8e3e336670baa2979c1ce9df1a53edd4d2a8ba4a46ce2",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVMinimalStandardization",
+      "source_file": "DixmierFormal/Weyl/GGVMinimalStandardization.lean",
+      "source_sha256": "29ca19b43ef4d70d73e3d0344afe49bba070c0ed02083f7540a0521b71857736",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVNegativeCommonRootNormalization",
+      "source_file": "DixmierFormal/Weyl/GGVNegativeCommonRootNormalization.lean",
+      "source_sha256": "b6a551826b93660539d1d7a46f05ba7dfc4b9c8fa4c60dcaf6fe72ef07eeea46",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVNegativeDiagonalBoundary",
+      "source_file": "DixmierFormal/Weyl/GGVNegativeDiagonalBoundary.lean",
+      "source_sha256": "0ad86505470cede3feafacca3335729da596500554a670fa9c9ea771b6b4c3be",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVNegativeFaceZeroGrade",
+      "source_file": "DixmierFormal/Weyl/GGVNegativeFaceZeroGrade.lean",
+      "source_sha256": "5a2a3dd687381b1012bf05bc845bac178675641a8e5c34ba83f44a43459a26e3",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVNegativeHorizontalBoundary",
+      "source_file": "DixmierFormal/Weyl/GGVNegativeHorizontalBoundary.lean",
+      "source_sha256": "4f855b4374153d8df6ae06d52732655720799a7e22e4f454aa44a3d9c82f166f",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVNegativeTotalDegreeRatio",
+      "source_file": "DixmierFormal/Weyl/GGVNegativeTotalDegreeRatio.lean",
+      "source_sha256": "739ed2d755eca8a4693be5cc28a028fcbdb34c74ffb3fe297fcbc349b1e28d4f",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVNormalizedRootCompanionEndpoint",
+      "source_file": "DixmierFormal/Weyl/GGVNormalizedRootCompanionEndpoint.lean",
+      "source_sha256": "5ca74b601033cb4132c4cb3d5cac656fa6f7899cb038b40295301aeabddba70a",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVOrderedCrossingSelection",
+      "source_file": "DixmierFormal/Weyl/GGVOrderedCrossingSelection.lean",
+      "source_sha256": "c7d2ab820543f8fb03c4e77178eeb4dbc1dec70830740329520bbc195b67e8bb",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVOrderedFaceCanonical",
+      "source_file": "DixmierFormal/Weyl/GGVOrderedFaceCanonical.lean",
+      "source_sha256": "53250f1339ea4e97c0e34b6a056634848b476fa3db1d73c2420afca33a68b38a",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVOrderedFaceDirections",
+      "source_file": "DixmierFormal/Weyl/GGVOrderedFaceDirections.lean",
+      "source_sha256": "5864cae540e49d1b34a830ba015d8eb17d4c05d4a4e82e4e35deb64d80ebcaf5",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVOrderedFaceSuccessor",
+      "source_file": "DixmierFormal/Weyl/GGVOrderedFaceSuccessor.lean",
+      "source_sha256": "596f6a48bb722d2e80f84555efbeb5b3b941e191e982a4cdf5a205df3cc4bab0",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVOrderedFaceWeightRatio",
+      "source_file": "DixmierFormal/Weyl/GGVOrderedFaceWeightRatio.lean",
+      "source_sha256": "aea6481e83702a9588c4e624ac254cc958a78225ceaca08badbf2a2ccfbb3ccb",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVOrderedGlobalRatio",
+      "source_file": "DixmierFormal/Weyl/GGVOrderedGlobalRatio.lean",
+      "source_sha256": "7770f116fd019f051d51f576ae40167e461c164963729e75c7611816271d147a",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVOrderedNonzeroSharedVertices",
+      "source_file": "DixmierFormal/Weyl/GGVOrderedNonzeroSharedVertices.lean",
+      "source_sha256": "5dc914ba9dd9a3bccf585e8e53c023ea467e6dc3c716115c46d967fa6ff2e531",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVOriginalSubrectangularCases",
+      "source_file": "DixmierFormal/Weyl/GGVOriginalSubrectangularCases.lean",
+      "source_sha256": "793b3a5d83ce6ddde85e443e5a1d8ba25a72c8e4c50e17f92aacff7797afd1c6",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVPairedEndpointRatio",
+      "source_file": "DixmierFormal/Weyl/GGVPairedEndpointRatio.lean",
+      "source_sha256": "c433fbeebae5408bc2f23dd95331cc6abf506bbb219710c968798d2241b2e65f",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVPairedFaceSuccessor",
+      "source_file": "DixmierFormal/Weyl/GGVPairedFaceSuccessor.lean",
+      "source_sha256": "76de572db6392550c55e5e75822b3010419c5eb8485196590d33a8b05f57c642",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVPairedFaceWeightRatio",
+      "source_file": "DixmierFormal/Weyl/GGVPairedFaceWeightRatio.lean",
+      "source_sha256": "ae778a703eb52cb09397de7f358fe72bb0c4b935e83af9cc2fbd71e960b448ef",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVPairedHorizontalBoundary",
+      "source_file": "DixmierFormal/Weyl/GGVPairedHorizontalBoundary.lean",
+      "source_sha256": "d3f6d89a92de8f1e75b5deae06e383fa01b602f4aa0ca0e3beaf83c8254475a6",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVPolynomialCompanionCutLift",
+      "source_file": "DixmierFormal/Weyl/GGVPolynomialCompanionCutLift.lean",
+      "source_sha256": "266e0206a708c49bdd591f5b369508af9813ba3a1db2a6b4f00510565d78dc65",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVPolynomialCornerProved",
+      "source_file": "DixmierFormal/Weyl/GGVPolynomialCornerProved.lean",
+      "source_sha256": "ad3d03430a6b5b05fb9a6c607525828e903e59e9bbb02cde8682b53f3f4d9554",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVPositiveBinomialReconstruction",
+      "source_file": "DixmierFormal/Weyl/GGVPositiveBinomialReconstruction.lean",
+      "source_sha256": "eeb3dfe4ad6b7f305e333cc06837a28eccd13321ec37516c381fd3ca8bf37502",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVPositiveCompanionEndpoint",
+      "source_file": "DixmierFormal/Weyl/GGVPositiveCompanionEndpoint.lean",
+      "source_sha256": "172c8951fcdfda7fbf5bcbaef3050ceae76b26020207deed704b6ea4a206ed3c",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVPositiveCutRootBudget",
+      "source_file": "DixmierFormal/Weyl/GGVPositiveCutRootBudget.lean",
+      "source_sha256": "0621dbd696024cdcc123a3ec6dca302e3c21a9bcf958d23d67f7cdecd676ef3d",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVPositiveFaceMinimalExclusion",
+      "source_file": "DixmierFormal/Weyl/GGVPositiveFaceMinimalExclusion.lean",
+      "source_sha256": "09d87042e7f59b8430e27f5bbb56875da5bfc31033eb69f4ad214e980a5b6b2c",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVPositiveWeight",
+      "source_file": "DixmierFormal/Weyl/GGVPositiveWeight.lean",
+      "source_sha256": "81a90360781f333bc7b735ffc158775cab77e0ae3d0c24b4721898c3fd661c1e",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVProportionalDescentExclusion",
+      "source_file": "DixmierFormal/Weyl/GGVProportionalDescentExclusion.lean",
+      "source_sha256": "cc6d73d9170fe72d3364e659cd875538a01ab5cf330ada1467e1c511d9067d57",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVPureLinearMinimalExclusion",
+      "source_file": "DixmierFormal/Weyl/GGVPureLinearMinimalExclusion.lean",
+      "source_sha256": "eb86a0e934d63f5d3acbd6e642d2bb613660690c000b53c9067b9c79e060b411",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVRationalDirection",
+      "source_file": "DixmierFormal/Weyl/GGVRationalDirection.lean",
+      "source_sha256": "d3eddf4bb321471eaeba67c5d7338d629bafcbf763a7bbe56033e924bdf1a496",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVRationalFace",
+      "source_file": "DixmierFormal/Weyl/GGVRationalFace.lean",
+      "source_sha256": "a23844c77d09208f1b5f210b89743a463d7e7e24423ea28e53b547ac7e4b3e64",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVRemainingInputs",
+      "source_file": "DixmierFormal/Weyl/GGVRemainingInputs.lean",
+      "source_sha256": "b2e4bcf873f1d19c8c7608089186b874ab07055ea9d4fc8db3e3c4003c96c199",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVSingleFactorStandardization",
+      "source_file": "DixmierFormal/Weyl/GGVSingleFactorStandardization.lean",
+      "source_sha256": "2bf3d4ed078949e472ffa43a69da347b1e04dd4f276ccdc3112dc2d3f158cef3",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVSmallDegreeCompanionSupport",
+      "source_file": "DixmierFormal/Weyl/GGVSmallDegreeCompanionSupport.lean",
+      "source_sha256": "ba0c9e6b6f3a8c8d289ea998306ea86107a9c807ce72dafd81de81dce24f6174",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVSmallDegreeCornerExclusion",
+      "source_file": "DixmierFormal/Weyl/GGVSmallDegreeCornerExclusion.lean",
+      "source_sha256": "3845cb0234ea13cf76f4339a3a975f8ffc19ca80f510b4f57144da3b592ff196",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVSmallDegreeCrossingData",
+      "source_file": "DixmierFormal/Weyl/GGVSmallDegreeCrossingData.lean",
+      "source_sha256": "855dd3035d5460f52120ebe5497bfe60a054c9b6e28f8f2803b60256c3a3db6d",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVSmallDegreeCutMultiplicity",
+      "source_file": "DixmierFormal/Weyl/GGVSmallDegreeCutMultiplicity.lean",
+      "source_sha256": "fa2b66d13f23e576c02a51c05c998a905f7e9ae2cedbe59e54bdcadb1a288a1b",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVSmallDegreeScalarHeight",
+      "source_file": "DixmierFormal/Weyl/GGVSmallDegreeScalarHeight.lean",
+      "source_sha256": "e68f5a7d94371b2cfa07cf052bf709d8a4f00b9c040ca4e9e05c2c7b3a90d294",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVSmallDegreeScalarReconstruction",
+      "source_file": "DixmierFormal/Weyl/GGVSmallDegreeScalarReconstruction.lean",
+      "source_sha256": "8254e7f6aca4ea3b3b75c0fc509f72c20fc64cc05c110c9db53aabdaf01c49ff",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVStandardNoHorizontalCut",
+      "source_file": "DixmierFormal/Weyl/GGVStandardNoHorizontalCut.lean",
+      "source_sha256": "d740c2bbd13224a0f7950ab4f825119097e97c36278cbaa7a8d1813a007b610e",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVStrictNegativeCornerFrontier",
+      "source_file": "DixmierFormal/Weyl/GGVStrictNegativeCornerFrontier.lean",
+      "source_sha256": "86f3d902966628ae322e9bdc5b6cf65782ed09961ddda66ddab2144f59e1a611",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVTwoBracketDivisionAdapter",
+      "source_file": "DixmierFormal/Weyl/GGVTwoBracketDivisionAdapter.lean",
+      "source_sha256": "ce2519d2cac35422226794cf73060b8df94f5fa479112f6e95e9eb2f54d03254",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GGVTwoRootStandardization",
+      "source_file": "DixmierFormal/Weyl/GGVTwoRootStandardization.lean",
+      "source_sha256": "8eca94b57fad9ecf7923967df4c9eda9eec32a977447316aaae5a5c60639cfd8",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GeneratedFaceFiltration",
+      "source_file": "DixmierFormal/Weyl/GeneratedFaceFiltration.lean",
+      "source_sha256": "6eedd812bba459655f6f11343773cefa6f63f0b1dfa6af4b09b77bd608a7f577",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GeneratorCentralizer",
+      "source_file": "DixmierFormal/Weyl/GeneratorCentralizer.lean",
+      "source_sha256": "60ae6bbe8fc63a3c3edc7198b45aea2fc02bb7252d635c67a28b69133281d51b",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.GradeNormalForms",
+      "source_file": "DixmierFormal/Weyl/GradeNormalForms.lean",
+      "source_sha256": "b7c2d5f9350660af30bad2081ba1f0a8160fdec0590f7f68c8f7c9f222f82116",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.HomogeneousCentralizerLine",
+      "source_file": "DixmierFormal/Weyl/HomogeneousCentralizerLine.lean",
+      "source_sha256": "377e3111f30ec828c168332b420201ba4e8029d3b8e37022b67611ce4e5abe8c",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.HomogeneousCentralizerNonpositive",
+      "source_file": "DixmierFormal/Weyl/HomogeneousCentralizerNonpositive.lean",
+      "source_sha256": "4a9c7d26ddf24478b6e1963e06e6132558c7f2cac5ecb525a6a2542440efee95",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.HomogeneousCutReconstruction",
+      "source_file": "DixmierFormal/Weyl/HomogeneousCutReconstruction.lean",
+      "source_sha256": "daf8ab5ac86b06da2253220c16a6c24bd6d8f8f40a35ed4fe2987e7c245bbad6",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.HomogeneousPowerEndpoint",
+      "source_file": "DixmierFormal/Weyl/HomogeneousPowerEndpoint.lean",
+      "source_sha256": "920eff4442c88a18cbffd11a114506a323a2da671e666456cb0ae8ce1741ddc8",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.HomogeneousPowerRatio",
+      "source_file": "DixmierFormal/Weyl/HomogeneousPowerRatio.lean",
+      "source_sha256": "c7a1b8c06cbcac2e217405a135e0ca9ec3645cdd97e5286cad8b9a0ff183fde8",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.HomogeneousRoot",
+      "source_file": "DixmierFormal/Weyl/HomogeneousRoot.lean",
+      "source_sha256": "6b167e99bf1f7b90267d37a7c72cb3fa324b58c5e775776a674f9a4f58aa1301",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.HorizontalCorner",
+      "source_file": "DixmierFormal/Weyl/HorizontalCorner.lean",
+      "source_sha256": "e656ba017e7c45e7f8253f9dc4158c638701c2afa944197c27661e83b5aa64b0",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.HorizontalCornerFullRoot",
+      "source_file": "DixmierFormal/Weyl/HorizontalCornerFullRoot.lean",
+      "source_sha256": "f37764399f027c5febc2c673fb6231e98084ca91305a865277d952c8846513a6",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.HorizontalCornerPolynomialDescent",
+      "source_file": "DixmierFormal/Weyl/HorizontalCornerPolynomialDescent.lean",
+      "source_sha256": "3f0c3462a5cb5aa8c88a4149f037a3981ed5ed697c9f2236da420d82c8d135c0",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.HorizontalCrossing",
+      "source_file": "DixmierFormal/Weyl/HorizontalCrossing.lean",
+      "source_sha256": "5552b9a86342debc29d3378da500dcc9973970d5a47b86a5976e10d80b43e201",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.HorizontalDescent",
+      "source_file": "DixmierFormal/Weyl/HorizontalDescent.lean",
+      "source_sha256": "d432150deb4703afe6c23521f5ce0c74c04400e73d4f96a04f83796bfd300748",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.HorizontalEndpoint",
+      "source_file": "DixmierFormal/Weyl/HorizontalEndpoint.lean",
+      "source_sha256": "bd13cf5f014dd46a7209ead938ab308bff26d37eb311fdf70cfd5c6e657c9a8e",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.HorizontalFace",
+      "source_file": "DixmierFormal/Weyl/HorizontalFace.lean",
+      "source_sha256": "0d5fbd081a80a156bf0537c8195f042e8bb39b834e83c7dbcb8d6e9108cc8219",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.HorizontalGGVScalar",
+      "source_file": "DixmierFormal/Weyl/HorizontalGGVScalar.lean",
+      "source_sha256": "969616122cdb853bd2887ae30fa96a1795acb52e41ff420039a2c5a23938a25f",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.HorizontalLastZeroExclusion",
+      "source_file": "DixmierFormal/Weyl/HorizontalLastZeroExclusion.lean",
+      "source_sha256": "51c84205a4c7a13249d0f1b7617fc4936bd8e8a9066d6294aa22bdc8f33fd7f0",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.HorizontalMate",
+      "source_file": "DixmierFormal/Weyl/HorizontalMate.lean",
+      "source_sha256": "690e1b6fc7dc7c42978ccbac122e1c99fb25e31f02b170b38aca14e6d858b382",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.HorizontalNativeShape",
+      "source_file": "DixmierFormal/Weyl/HorizontalNativeShape.lean",
+      "source_sha256": "a4d8b5392d39a2f1562b9d54a5ec0267fc68dd993966d319bed8382aa372c432",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.HorizontalOppositeCrossing",
+      "source_file": "DixmierFormal/Weyl/HorizontalOppositeCrossing.lean",
+      "source_sha256": "174e8cbd9dc604c907f75c07bf012a36d3042f7ccc79b1b150bb49749c16eaf3",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.HorizontalPoisson",
+      "source_file": "DixmierFormal/Weyl/HorizontalPoisson.lean",
+      "source_sha256": "5c1a6780eed9ddf4f4447bd504590d5fa498d684048861911908383f1f925dd8",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.HorizontalPrime",
+      "source_file": "DixmierFormal/Weyl/HorizontalPrime.lean",
+      "source_sha256": "1958b817a7b070f915590002ca2acd4c675ca0b3d705cca3f3dba39fe82c85f4",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.HorizontalSupport",
+      "source_file": "DixmierFormal/Weyl/HorizontalSupport.lean",
+      "source_sha256": "fd95739236a85dbe9bd049ab22d68b8583690987774ae88011d69735302cb063",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.HorizontalWronskian",
+      "source_file": "DixmierFormal/Weyl/HorizontalWronskian.lean",
+      "source_sha256": "7b624654b2c8d0628f0239b60eb06eb324b92708029382bd4f09959c45114287",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.Inputs",
+      "source_file": "DixmierFormal/Weyl/Inputs.lean",
+      "source_sha256": "3a6c20bb7878eff2b83b5d07315b5590f5be6015651b080fa6774bcfbb894e9e",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.JosephCommutatorChain",
+      "source_file": "DixmierFormal/Weyl/JosephCommutatorChain.lean",
+      "source_sha256": "73656b8c664b063a7e7b96f97cd0220855530a28f815e0f3d8375bc3f32c7784",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.JosephInitialWitness",
+      "source_file": "DixmierFormal/Weyl/JosephInitialWitness.lean",
+      "source_sha256": "9281fd92c771360d63e6dafae2c371bb5669a1c217813f9897a06f1494943227",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.JosephLocalNilpotence",
+      "source_file": "DixmierFormal/Weyl/JosephLocalNilpotence.lean",
+      "source_sha256": "d6813b529c0f631287917ea833b382a99342ccf1a26eb338002da467016d03a3",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.LeadingMate",
+      "source_file": "DixmierFormal/Weyl/LeadingMate.lean",
+      "source_sha256": "c82702c4d1b586a690116e415e8d968ff0a483e476f3fd440d3ef3cb486631ef",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.LeadingPowers",
+      "source_file": "DixmierFormal/Weyl/LeadingPowers.lean",
+      "source_sha256": "22a685e1f4c827877d2aa4f69023ce0fdfa0b9907a635807c4364ee359b33ba9",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.MateDescent",
+      "source_file": "DixmierFormal/Weyl/MateDescent.lean",
+      "source_sha256": "3a903dc7455f2a123a5f9ab012077249f0f8bc2bb73ab965c9fe6405b16a6be4",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.MatePower",
+      "source_file": "DixmierFormal/Weyl/MatePower.lean",
+      "source_sha256": "28b038982544262710f8f597be1a0edc5ffb6640075cfea422e223dfee676ba9",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.NegativeCrossing",
+      "source_file": "DixmierFormal/Weyl/NegativeCrossing.lean",
+      "source_sha256": "c3aeff9cb2e51c640981e1dd2ab08381a29bed707e8dc04b7661fbfc6d643ae7",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.NegativeCrossingProperPower",
+      "source_file": "DixmierFormal/Weyl/NegativeCrossingProperPower.lean",
+      "source_sha256": "5182058c9f2a65b55453f02331899f52c2d1a0964e9bf58c3c34d87cb806d91e",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.NewtonEndpointCones",
+      "source_file": "DixmierFormal/Weyl/NewtonEndpointCones.lean",
+      "source_sha256": "bb474ca62377d1398954ae9e89dee0d9b2f0e787f1264ace90815118a22677c7",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.NewtonRealDirection",
+      "source_file": "DixmierFormal/Weyl/NewtonRealDirection.lean",
+      "source_sha256": "6aa7c70cbd76c0ea1d8ea2ed498d771fd34a02095c1300d14e98226030e6f5d6",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.NewtonRoofSupport",
+      "source_file": "DixmierFormal/Weyl/NewtonRoofSupport.lean",
+      "source_sha256": "2b98eb01f34599be5f6b7226301ce396df0b24ef3ccb7b015d87449d66c2f71f",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.NewtonSolidSupport",
+      "source_file": "DixmierFormal/Weyl/NewtonSolidSupport.lean",
+      "source_sha256": "caf6a14a46554eb164265f8eeff82d713fffefbd77d087ce95c55c9d17953894",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.NoProperPowerMate",
+      "source_file": "DixmierFormal/Weyl/NoProperPowerMate.lean",
+      "source_sha256": "e9dbb07b18cbe1dd30452fe27ada9fd3b2bdd5f56673352c43b8da8ce6278227",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.OneSidedDiagonalVertex",
+      "source_file": "DixmierFormal/Weyl/OneSidedDiagonalVertex.lean",
+      "source_sha256": "c3888b3bcd363d9fffa25e3f996abdd6fdd02771cd6c03e377704ce6de06dd6a",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.OneSidedFaceDispatch",
+      "source_file": "DixmierFormal/Weyl/OneSidedFaceDispatch.lean",
+      "source_sha256": "84fdf411641ac9826ce32371bd9d25b14b35fab87ea968a0a8a0e109e46567a1",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.OneSidedGradeBasic",
+      "source_file": "DixmierFormal/Weyl/OneSidedGradeBasic.lean",
+      "source_sha256": "8c1952439581adbcc619d736df4a7e315eef3e9a8701cb8063fab1867452774a",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.OneSidedRoofZero",
+      "source_file": "DixmierFormal/Weyl/OneSidedRoofZero.lean",
+      "source_sha256": "68c6555ee6637e1f378dc8e7a92b6874033080af148198f943743110bab2931d",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.OneSidedScalarNormalize",
+      "source_file": "DixmierFormal/Weyl/OneSidedScalarNormalize.lean",
+      "source_sha256": "dd6e1bdcd45675ca56afe6e4cdf18bf4d5c2227f06bf30bac72ae4df20e8bf9f",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.OneSidedSupportGeometry",
+      "source_file": "DixmierFormal/Weyl/OneSidedSupportGeometry.lean",
+      "source_sha256": "7360fe99d056276670a5075878138677c0014d374908641a2bed317b236b5fe5",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.OppositeCrossingExtraction",
+      "source_file": "DixmierFormal/Weyl/OppositeCrossingExtraction.lean",
+      "source_sha256": "e6e57f453300d4c2501cf190a0793363f4438398588636fd756408ebc7be657b",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.OppositeCrossingFaces",
+      "source_file": "DixmierFormal/Weyl/OppositeCrossingFaces.lean",
+      "source_sha256": "e26d48bb26ba94f7982f69ab3061a49df52bebe4fe75f7dedd0dfa398aa657e8",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.OppositeGradeCommutator",
+      "source_file": "DixmierFormal/Weyl/OppositeGradeCommutator.lean",
+      "source_sha256": "0da6d66021aa801c6f9b9938909c2e1963b630ddd608848cb2fbd1f6425a8757",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.OppositeGradeSlice",
+      "source_file": "DixmierFormal/Weyl/OppositeGradeSlice.lean",
+      "source_sha256": "b1c4b1b3b791dbd5124490be3a64d532a82876d73a31d4df602092948c3ebbc5",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PBWGradeSlices",
+      "source_file": "DixmierFormal/Weyl/PBWGradeSlices.lean",
+      "source_sha256": "14e70951dd68511fc608e21ed34eafe604fd309e886e3bd4c96d510eb2a05092",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PoissonDiagonalStart",
+      "source_file": "DixmierFormal/Weyl/PoissonDiagonalStart.lean",
+      "source_sha256": "25b48721a6512368adb292b965d19ebd7314ac180e49298be7e06ec396a01f40",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PoissonEndpoints",
+      "source_file": "DixmierFormal/Weyl/PoissonEndpoints.lean",
+      "source_sha256": "d6f4e96a905cd3b377ac237129b0e2bb1a4020c45e7d66c8f6f14447113ef108",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PoissonEulerBracket",
+      "source_file": "DixmierFormal/Weyl/PoissonEulerBracket.lean",
+      "source_sha256": "7f6d6b40372e09a6da4654db548219f8462794a31dbe139677eb16bc58246222",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PoissonFixedPointBoundedBracket",
+      "source_file": "DixmierFormal/Weyl/PoissonFixedPointBoundedBracket.lean",
+      "source_sha256": "afed09a73d3bca8a91129ae90b4c18d9de36ee09c3c91eac57c54b241637269a",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PoissonFixedPointDivision",
+      "source_file": "DixmierFormal/Weyl/PoissonFixedPointDivision.lean",
+      "source_sha256": "322ca9307a159ea481479cf1b0c8fba123193c2990931bbaa3868cf675c9ea8f",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PoissonFixedPointWeight",
+      "source_file": "DixmierFormal/Weyl/PoissonFixedPointWeight.lean",
+      "source_sha256": "b9f431dd467c1073c8dffcbb18d34499c899dd025087f7de05f3602c15f416e2",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PoissonHomogeneousWeight",
+      "source_file": "DixmierFormal/Weyl/PoissonHomogeneousWeight.lean",
+      "source_sha256": "e5acf9c3ea6e8ceb3535fcb415ebc7679bf8efe92596e0c162c24a0a8043de12",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PoissonSubstitution",
+      "source_file": "DixmierFormal/Weyl/PoissonSubstitution.lean",
+      "source_sha256": "f4f0da1aa867417e42680838ad814d3b99d1b15e1dab926bf18ae8bebba874a1",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PoissonTwoBracketPolynomiality",
+      "source_file": "DixmierFormal/Weyl/PoissonTwoBracketPolynomiality.lean",
+      "source_sha256": "f5340afb9609b94e5c394483038c7248511a094950c977e03a818e8733005bed",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PolynomialBracketReindex",
+      "source_file": "DixmierFormal/Weyl/PolynomialBracketReindex.lean",
+      "source_sha256": "22a1811eac0306db2907e71417fef9964e22d7cfd650a7bab5dea3651b31e1e1",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PolynomialCommonPower",
+      "source_file": "DixmierFormal/Weyl/PolynomialCommonPower.lean",
+      "source_sha256": "ce276546344fbbbc58769df41b19a82a28b5fa482fb7b2ac313fa2dc160e3ccf",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PolynomialConstantCutRecovery",
+      "source_file": "DixmierFormal/Weyl/PolynomialConstantCutRecovery.lean",
+      "source_sha256": "d9cc78e5ca730aa352777df05c0915e5d4c73f58ce7574998ce950b13c456ee4",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PolynomialCutCommonDirection",
+      "source_file": "DixmierFormal/Weyl/PolynomialCutCommonDirection.lean",
+      "source_sha256": "ca8e6cc2dd2888b0d43ca1792664d27e1d503b200d55c448fc7f4f253fd01d65",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PolynomialCutCommonWeights",
+      "source_file": "DixmierFormal/Weyl/PolynomialCutCommonWeights.lean",
+      "source_sha256": "2dd72115dbf1d1cd1163757384745e2817865eda0360b0f058905703ab86695f",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PolynomialCutCompanionGrade",
+      "source_file": "DixmierFormal/Weyl/PolynomialCutCompanionGrade.lean",
+      "source_sha256": "7989b4560fa71dc27815ea0ff11deec7344a0bef4cb376a6362abc18997d580e",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PolynomialCutDimensionWitness",
+      "source_file": "DixmierFormal/Weyl/PolynomialCutDimensionWitness.lean",
+      "source_sha256": "92350532059adefcdc5de576e92b118068addd6c9a74b87626d420f8288b041b",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PolynomialCutExactStartPair",
+      "source_file": "DixmierFormal/Weyl/PolynomialCutExactStartPair.lean",
+      "source_sha256": "2babaf73e1d97552575995fe1d8e751d850fd513ac858d827dba9ce0298c16c7",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PolynomialCutMateAlignment",
+      "source_file": "DixmierFormal/Weyl/PolynomialCutMateAlignment.lean",
+      "source_sha256": "df315e5da53652b0fe861f2254908373222218afa47f4bfcc1fda85cecdbc3d3",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PolynomialCutSourceEndpoints",
+      "source_file": "DixmierFormal/Weyl/PolynomialCutSourceEndpoints.lean",
+      "source_sha256": "ab2b73b7034dc6e00f0b352b3bea14677748b50c0b6f1e9450f7355ba9095026",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PolynomialCutStartAlignment",
+      "source_file": "DixmierFormal/Weyl/PolynomialCutStartAlignment.lean",
+      "source_sha256": "455b623a88c64ae0de616a70ff34a1bf44d70e22700065454c146594b8ea8683",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PolynomialCutTranslation",
+      "source_file": "DixmierFormal/Weyl/PolynomialCutTranslation.lean",
+      "source_sha256": "b454d08f2c1aaf608ece3c4abb9ff6c42a3ea1f679b6889f31c8dd2c2ada31e5",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PolynomialCutWordBounds",
+      "source_file": "DixmierFormal/Weyl/PolynomialCutWordBounds.lean",
+      "source_sha256": "df734536e46e37a29cb34d1e66d83a3383c38c7df21ba63beb508c2a0564a6fd",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PolynomialCutWordGrowth",
+      "source_file": "DixmierFormal/Weyl/PolynomialCutWordGrowth.lean",
+      "source_sha256": "0661a0a6c889fd52e820cf640db0cb43c7ef2eac21cf95c5a2452d038f1dff05",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PolynomialFiniteCutCompanion",
+      "source_file": "DixmierFormal/Weyl/PolynomialFiniteCutCompanion.lean",
+      "source_sha256": "956a88a484a5da754f70936d5d51f0f6e1d00640e928054365d906696d7e7201",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PolynomialFiniteCutDimensionWitness",
+      "source_file": "DixmierFormal/Weyl/PolynomialFiniteCutDimensionWitness.lean",
+      "source_sha256": "a402784d039d177c828a535dd006f7dbd13a1ecc38f00a3c26db5e8b0cb785d1",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PolynomialFiniteCutWordBounds",
+      "source_file": "DixmierFormal/Weyl/PolynomialFiniteCutWordBounds.lean",
+      "source_sha256": "05960ce4d5aa599cac4419107ce32ef220bf74d6171b8f90b1daccb994c11b03",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PolynomialFiniteCutWordGrowth",
+      "source_file": "DixmierFormal/Weyl/PolynomialFiniteCutWordGrowth.lean",
+      "source_sha256": "179c89ac0128377797d6fd8631edd3dcac1693d13e30415e4072f65a2835430f",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PolynomialHorizontalCutRectangle",
+      "source_file": "DixmierFormal/Weyl/PolynomialHorizontalCutRectangle.lean",
+      "source_sha256": "a1e30cb41c3f83f5bc31c007e2fd5d97de93d42131f15c27d816a7b6e2c1b9a3",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PolynomialHorizontalCutSupport",
+      "source_file": "DixmierFormal/Weyl/PolynomialHorizontalCutSupport.lean",
+      "source_sha256": "12d3d99988ced7956d84aad1603003eec846b32585a267d59c6c93e2990e4d44",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PolynomialLiftFaceTransport",
+      "source_file": "DixmierFormal/Weyl/PolynomialLiftFaceTransport.lean",
+      "source_sha256": "4de6078211b86aac6c954032eff6cf249e07c00f7b045fb60583e7d2a4b854a4",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PolynomialMonomialShearRecovery",
+      "source_file": "DixmierFormal/Weyl/PolynomialMonomialShearRecovery.lean",
+      "source_sha256": "a68af545d19a3afc2f1b4fdce70e716326bdceb706b528c003efa1f9ca7183ca",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PolynomialQuotientWeightLattice",
+      "source_file": "DixmierFormal/Weyl/PolynomialQuotientWeightLattice.lean",
+      "source_sha256": "5d51ca5ad146974c778870b6e7d664ff826ad8aa81a6186933553e31788b0893",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PolynomialRamifiedCutEndpoint",
+      "source_file": "DixmierFormal/Weyl/PolynomialRamifiedCutEndpoint.lean",
+      "source_sha256": "5c09f1a9f9b7bc002fa80008352cbed7eb0ef4384725134468bfd487868df655",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PolynomialRamifiedFace",
+      "source_file": "DixmierFormal/Weyl/PolynomialRamifiedFace.lean",
+      "source_sha256": "dadd2f82d44413199c235accbd863753056642d9719298a6151285fda11092af",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PolynomialRamifiedLift",
+      "source_file": "DixmierFormal/Weyl/PolynomialRamifiedLift.lean",
+      "source_sha256": "ce53fefb87e9f16f668424cf1ba762897111b37e293c0d269ad55d0f171ac087",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PolynomialShearTopRow",
+      "source_file": "DixmierFormal/Weyl/PolynomialShearTopRow.lean",
+      "source_sha256": "0cf5ff5fe54d044bd1c6276ee45a1827c2afc6cc39710997e3c51414e61f674f",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PositiveBinomialMassBound",
+      "source_file": "DixmierFormal/Weyl/PositiveBinomialMassBound.lean",
+      "source_sha256": "efe7e747a64a50397f6a10cce116592ef1b7df0efea116046ee93d9185bc51fb",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PositiveBinomialTopBoundary",
+      "source_file": "DixmierFormal/Weyl/PositiveBinomialTopBoundary.lean",
+      "source_sha256": "c242e78c56f32c53c369a0b7517f36d419906ab83ed856b8a2ac7197a33da780",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PositiveDescentInvariant",
+      "source_file": "DixmierFormal/Weyl/PositiveDescentInvariant.lean",
+      "source_sha256": "d131e6228ca5170d6a84cbad4707eaf03b70331adac8d3f69f225b4d128248f3",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PositiveGradeNormalForms",
+      "source_file": "DixmierFormal/Weyl/PositiveGradeNormalForms.lean",
+      "source_sha256": "bfba04b4eec6753a4c1ad1e7fb3bb5df6852cdcc265ab2bf7da15ecba71422cf",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PositiveProportionalMateDescent",
+      "source_file": "DixmierFormal/Weyl/PositiveProportionalMateDescent.lean",
+      "source_sha256": "9de1d742aed9ba8d842472122066a42a04b932a5c746f1a5412a31d2f9140b12",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PositiveShearFiniteDescent",
+      "source_file": "DixmierFormal/Weyl/PositiveShearFiniteDescent.lean",
+      "source_sha256": "59e549d9e4295f4fb4fcccb94758b9a88ca4daa9185152416a021339c5d1f8ed",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PositiveShearMateDescent",
+      "source_file": "DixmierFormal/Weyl/PositiveShearMateDescent.lean",
+      "source_sha256": "e9e877dd4b33a75779b212f97c0038bd59eced77b7c3bbb351715ed495db8f30",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PositiveShearMonomialFace",
+      "source_file": "DixmierFormal/Weyl/PositiveShearMonomialFace.lean",
+      "source_sha256": "e5e189454073cb65b86f9d2e32f8719670411cd1b96eeb10a399cb59c9755b2a",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PositiveShearTerminalMateDegree",
+      "source_file": "DixmierFormal/Weyl/PositiveShearTerminalMateDegree.lean",
+      "source_sha256": "a462aa1b38c6ff2337af7f24a292d5da802131681ef30402fb0c843bdb19bf36",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PositiveSingletonMateFace",
+      "source_file": "DixmierFormal/Weyl/PositiveSingletonMateFace.lean",
+      "source_sha256": "aeb9cbf63d535cf6aaefe1b9ba904f01147617fa8111e676194ab037331e8718",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PowerRatio",
+      "source_file": "DixmierFormal/Weyl/PowerRatio.lean",
+      "source_sha256": "84c2d5505bcdd3ba3122a25c8d0a4d27f8356cfffed255fda7078efb23c482df",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PrimeTerminal",
+      "source_file": "DixmierFormal/Weyl/PrimeTerminal.lean",
+      "source_sha256": "3edeef2203186936b1ff13f44ed0a058243145e7ce6bb172f835ade62d556a33",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PrimitiveDirectionArithmetic",
+      "source_file": "DixmierFormal/Weyl/PrimitiveDirectionArithmetic.lean",
+      "source_sha256": "b37c919c0b7600252047a3cc7579cbfa5bb33dbf7a3c0c9333b2302730112357",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PrimitivePolynomialCorner",
+      "source_file": "DixmierFormal/Weyl/PrimitivePolynomialCorner.lean",
+      "source_sha256": "e518a130f4bd22920a00d429c946beacfb0cca9c87ebec4c37e7228e44440da3",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.ProductCoordinateSupport",
+      "source_file": "DixmierFormal/Weyl/ProductCoordinateSupport.lean",
+      "source_sha256": "f0de33d94ca670b0ff6624cc4525aae73bce70d3382429ed4ec9845437a183ad",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.ProperPowerDescent",
+      "source_file": "DixmierFormal/Weyl/ProperPowerDescent.lean",
+      "source_sha256": "51b37b2f0a56a3564e1d5209a79062873f8e9d964ebd8b0b288ecfbbbc7ed0cf",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PureGradeCommutator",
+      "source_file": "DixmierFormal/Weyl/PureGradeCommutator.lean",
+      "source_sha256": "19fa854639278c4d9b9e30c70f94126630d861ec6d831504fb951da51d76fc61",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PureGradeCompanion",
+      "source_file": "DixmierFormal/Weyl/PureGradeCompanion.lean",
+      "source_sha256": "df299e7b17731e1b2f4f98cdfc774cec66bd344e04af69f7c31cf1b8f853f546",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PureGradeGeneration",
+      "source_file": "DixmierFormal/Weyl/PureGradeGeneration.lean",
+      "source_sha256": "5e79c10e845da531e56c893e151199abb47daeb23a571a833189f7ea288114d5",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PurePowerArithmetic",
+      "source_file": "DixmierFormal/Weyl/PurePowerArithmetic.lean",
+      "source_sha256": "85295533d1532fb1f1cc14bb46b577246c2fc3871bd57b65a153408f14dea919",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.PurePowerExclusion",
+      "source_file": "DixmierFormal/Weyl/PurePowerExclusion.lean",
+      "source_sha256": "c9294dfe7643a3a7af1fcb24798e198cf97b5c51b0872d5da72785066f63b016",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedAdjacentStrictDecrease",
+      "source_file": "DixmierFormal/Weyl/RamifiedAdjacentStrictDecrease.lean",
+      "source_sha256": "3e5304ce467174c1800862fd31af6ca22b839035bffeec2159ecd2ca5f8dc2e3",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCanonicalEndProportion",
+      "source_file": "DixmierFormal/Weyl/RamifiedCanonicalEndProportion.lean",
+      "source_sha256": "99f0567276abb10d1fd12fd1feb6ba49da53bfe6c29e70c05c5112f5f8bafcf6",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCanonicalFaceMax",
+      "source_file": "DixmierFormal/Weyl/RamifiedCanonicalFaceMax.lean",
+      "source_sha256": "1bdbebdabab3cb1366131a82cec024e0d4c2fe48b205749077611720f683ee3a",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCanonicalFaceMin",
+      "source_file": "DixmierFormal/Weyl/RamifiedCanonicalFaceMin.lean",
+      "source_sha256": "28c53f6e0c2479030750cf6f60e576efb190a558674624023566f469d1e423d7",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCanonicalFacePair",
+      "source_file": "DixmierFormal/Weyl/RamifiedCanonicalFacePair.lean",
+      "source_sha256": "ee4c13fea89509f467996833093f4ca8c5fb277969aed7da22672c070b9ebaae",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCanonicalFaceStartPair",
+      "source_file": "DixmierFormal/Weyl/RamifiedCanonicalFaceStartPair.lean",
+      "source_sha256": "a0a4c55a884b1656ef3c6d854bbec0e678239aaf97e510ce4548f285f2f7952a",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCommonAdjacentDirection",
+      "source_file": "DixmierFormal/Weyl/RamifiedCommonAdjacentDirection.lean",
+      "source_sha256": "9191b12d4b7ef9fc2fcc3b5d6cdbcdb25a513ee1f37d22ce56e1ba4cfc5b22e7",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCommonFaceRatio",
+      "source_file": "DixmierFormal/Weyl/RamifiedCommonFaceRatio.lean",
+      "source_sha256": "fc52459382ae99c12c69f38af075675de848c94d63f6d81fffac97eb5a150ee5",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCommonFirstSlope",
+      "source_file": "DixmierFormal/Weyl/RamifiedCommonFirstSlope.lean",
+      "source_sha256": "17c39b1dd67d1a60410317920f2cde108ff0c46d1899645053d143a5dbbd0d12",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCommonIntegralFace",
+      "source_file": "DixmierFormal/Weyl/RamifiedCommonIntegralFace.lean",
+      "source_sha256": "5a22cb63b849385767435fb589a5d6b36b59191336b6dca5df1414fff3797b89",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCommutatorFirstWeight",
+      "source_file": "DixmierFormal/Weyl/RamifiedCommutatorFirstWeight.lean",
+      "source_sha256": "0e6e2aaf63f1eb3b35be1ee329341618d89bd555c7706eb61b7582539787a4f6",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCompanionBracketOrder",
+      "source_file": "DixmierFormal/Weyl/RamifiedCompanionBracketOrder.lean",
+      "source_sha256": "81973a4ca9adf61c22747b543c07afbabf4cb22be8991ae9bd9bc01ae95d35de",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCompanionDiagonalStart",
+      "source_file": "DixmierFormal/Weyl/RamifiedCompanionDiagonalStart.lean",
+      "source_sha256": "55b19d93b62a1ebe44ed35835876be614d0efd11e66ca18cc5549e4d0906877f",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCompanionEndpointCases",
+      "source_file": "DixmierFormal/Weyl/RamifiedCompanionEndpointCases.lean",
+      "source_sha256": "9f06a36ddf362df67fe98493118f624652335ead777f7ec1b2d14a421e542cc7",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCompanionEndpointDichotomy",
+      "source_file": "DixmierFormal/Weyl/RamifiedCompanionEndpointDichotomy.lean",
+      "source_sha256": "feb6c8f5cd3fa6d10488a938fb578e94d10219d312194ce79bc528bd0b23e3ab",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCompanionFirstFace",
+      "source_file": "DixmierFormal/Weyl/RamifiedCompanionFirstFace.lean",
+      "source_sha256": "bd65463cb7389a86c1927b6446385ddfd749c5c2569a2e78998b67ca131c2259",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCompanionGradeAssembly",
+      "source_file": "DixmierFormal/Weyl/RamifiedCompanionGradeAssembly.lean",
+      "source_sha256": "1017a1f62ae0fbd334cdddc40ab8989bfa2d8c4176285d41e849b465549d0afc",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCompanionPositiveThreshold",
+      "source_file": "DixmierFormal/Weyl/RamifiedCompanionPositiveThreshold.lean",
+      "source_sha256": "1210eafb24053a683f89d403bb7b0bae4e20e499593e6d631ce1dddab9a3d80e",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCompanionRootBudget",
+      "source_file": "DixmierFormal/Weyl/RamifiedCompanionRootBudget.lean",
+      "source_sha256": "eb54e18b586a98cba411df33a7278c67df50d6726447ae09ad628f9813fd9c3b",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCompanionSeed",
+      "source_file": "DixmierFormal/Weyl/RamifiedCompanionSeed.lean",
+      "source_sha256": "1c42e2053d5cdb6c3370e0a1fab8b222a1f1208d8d9c2129e82684e85c4072df",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedComponentTopFace",
+      "source_file": "DixmierFormal/Weyl/RamifiedComponentTopFace.lean",
+      "source_sha256": "ac167096837176e41849fef8bae96315afc563ea447342bd6e610c354dee5b31",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedConstantEndpoint",
+      "source_file": "DixmierFormal/Weyl/RamifiedConstantEndpoint.lean",
+      "source_sha256": "185c1cadf5a807dc6cc6b9a4b1b04743bbbdac38af06396d819c4a7ab71ff4d8",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedContractionWeight",
+      "source_file": "DixmierFormal/Weyl/RamifiedContractionWeight.lean",
+      "source_sha256": "7bf5b49269652ae0908e1a7f138dd50f22dea3731187cfc5b229cb50febb46ac",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCornerCompanionCases",
+      "source_file": "DixmierFormal/Weyl/RamifiedCornerCompanionCases.lean",
+      "source_sha256": "4ce5f35f7e34760f47eb7e8c4eac2dd6b9be1bb32d537a6a891e436db53a2574",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCornerCompanionFullRoot",
+      "source_file": "DixmierFormal/Weyl/RamifiedCornerCompanionFullRoot.lean",
+      "source_sha256": "8e444f7c017d93b972cba5b57c91fc4eb9680ab920870be787e5cd3020fc0b81",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCornerCompanionIndex",
+      "source_file": "DixmierFormal/Weyl/RamifiedCornerCompanionIndex.lean",
+      "source_sha256": "0ccaa1df63d97136654417a93db1a1bb58cb42d7966ae93a9845eccb07c82367",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCornerCompanionLowerSuccessor",
+      "source_file": "DixmierFormal/Weyl/RamifiedCornerCompanionLowerSuccessor.lean",
+      "source_sha256": "a39aa8c2b1fb9f84e2df4e41deb790c385268a2d5d7aa2ec56d2b09b5db1037f",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCornerGradeBarrier",
+      "source_file": "DixmierFormal/Weyl/RamifiedCornerGradeBarrier.lean",
+      "source_sha256": "5329723a4f53e152eebaeb40c439d3a798ab5b50085d389a486a98432367294d",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCornerParallelRigidity",
+      "source_file": "DixmierFormal/Weyl/RamifiedCornerParallelRigidity.lean",
+      "source_sha256": "6b421dba3e245d8503b66fd46b49e232e468e06b62a3db0869915af0bd537218",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCutCanonicalStart",
+      "source_file": "DixmierFormal/Weyl/RamifiedCutCanonicalStart.lean",
+      "source_sha256": "abf60ad366076f892a36c9dc2e237ec25ab733866b2e2318a2340bda3f6005c1",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCutCoeffRecurrence",
+      "source_file": "DixmierFormal/Weyl/RamifiedCutCoeffRecurrence.lean",
+      "source_sha256": "a3f3903e1fe61c26d9e0db47d3bd46658a5d51226b9fb6a0210875e47fa0afba",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCutEdgeCoeff",
+      "source_file": "DixmierFormal/Weyl/RamifiedCutEdgeCoeff.lean",
+      "source_sha256": "24255b4389c39632290366c36fb315d32fe4d756905356c379ca1cfcfdfa8afa",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCutExactStartPair",
+      "source_file": "DixmierFormal/Weyl/RamifiedCutExactStartPair.lean",
+      "source_sha256": "6edbe59c2b85918a348dc1f0289466bb7f0be4c8d548851d611689fbcf63b166",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCutHomogeneousCompanion",
+      "source_file": "DixmierFormal/Weyl/RamifiedCutHomogeneousCompanion.lean",
+      "source_sha256": "f1f5f7474028449fdcdbc2dc46e8e5d551c3238f602c71a126da852a9d0a0d01",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCutLowerSupport",
+      "source_file": "DixmierFormal/Weyl/RamifiedCutLowerSupport.lean",
+      "source_sha256": "f0aa6d8b402abd8d8378b6490b5b670ba09a4e4f5a9c84746e3d4ba4709d662b",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCutMaxRootExactPair",
+      "source_file": "DixmierFormal/Weyl/RamifiedCutMaxRootExactPair.lean",
+      "source_sha256": "560ecd01b027af299e1e9d5613b48efc73e17946e8eb49a85e49561c12a2f2a3",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCutNonDiagonalStart",
+      "source_file": "DixmierFormal/Weyl/RamifiedCutNonDiagonalStart.lean",
+      "source_sha256": "f4cbf6b24ed1d078de99241d4241b9459f715ab3c77be32d5fa69ad712fa56fc",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCutRecurrence",
+      "source_file": "DixmierFormal/Weyl/RamifiedCutRecurrence.lean",
+      "source_sha256": "ec0db5cc0547332780e25f3366ccebd58186a1ddb7d01ba33b773302a21c7f43",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCutRootEndpoint",
+      "source_file": "DixmierFormal/Weyl/RamifiedCutRootEndpoint.lean",
+      "source_sha256": "45bc6b841d5de5afff958ab375e213ccd9ea990a1b6a8b506eb6624c2c2680d4",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCutSetup",
+      "source_file": "DixmierFormal/Weyl/RamifiedCutSetup.lean",
+      "source_sha256": "fd1345691ba28ca974c127531cd3538646a8c3010c03f01492a78dd5fac14059",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCutWeightPreservation",
+      "source_file": "DixmierFormal/Weyl/RamifiedCutWeightPreservation.lean",
+      "source_sha256": "a60f19647a3a0d6a04ee6aeb21518820727b336f2ac7351413f3148cc1f3e5f2",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedCutWeightSupport",
+      "source_file": "DixmierFormal/Weyl/RamifiedCutWeightSupport.lean",
+      "source_sha256": "1ba9be45078f7d3cf0fb8717bacaef9e131ea5f4cf03b3a73ff28ccceba44342",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedDerivation",
+      "source_file": "DixmierFormal/Weyl/RamifiedDerivation.lean",
+      "source_sha256": "9bd3ea0e134d6ee35ab80d21e400bd266e6ae96757fa256bb55995af4115a216",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedDiagonalCompanionAdmissibility",
+      "source_file": "DixmierFormal/Weyl/RamifiedDiagonalCompanionAdmissibility.lean",
+      "source_sha256": "f5817eb3561544e4f9063ddf68d363e74c5d1938aafe1373e80eb103a7bf0393",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedDiagonalCompanionFullRoot",
+      "source_file": "DixmierFormal/Weyl/RamifiedDiagonalCompanionFullRoot.lean",
+      "source_sha256": "a42136d04847c976367daf41f906649438d46accdf5a7222154c6a26883163f6",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedDiagonalCutCertificate",
+      "source_file": "DixmierFormal/Weyl/RamifiedDiagonalCutCertificate.lean",
+      "source_sha256": "0c65885d1c23198ec4ca74e998d3eb5f7e32d7fa4fef86a9c95bcf045ca826a9",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedDiagonalLowerSuccessor",
+      "source_file": "DixmierFormal/Weyl/RamifiedDiagonalLowerSuccessor.lean",
+      "source_sha256": "b1e71f977ca86ae3e47a749924b28e9d85b5aeca9913fccd5b1e04146ff7f428",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedEndpointCoefficient",
+      "source_file": "DixmierFormal/Weyl/RamifiedEndpointCoefficient.lean",
+      "source_sha256": "76824e8d1508e0d0c4edadab8fd97e8ebc3cfaccf4cd60e5d5a752832bae7ba6",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedExactWeightLower",
+      "source_file": "DixmierFormal/Weyl/RamifiedExactWeightLower.lean",
+      "source_sha256": "89989b7277a369703f215285a394c2e011cec347a2aaa2c111183e20c3d62ca0",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedFaceCentralizerLine",
+      "source_file": "DixmierFormal/Weyl/RamifiedFaceCentralizerLine.lean",
+      "source_sha256": "4621078450717bba5d01200f64359adf1d82a0f96f729333db4dd84edd00cef6",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedFaceEndpointCriterion",
+      "source_file": "DixmierFormal/Weyl/RamifiedFaceEndpointCriterion.lean",
+      "source_sha256": "fb8741f15b5d28a62de0afffc157ce781ec501e2f31ca23932a70b40f9032e0e",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedFaceEndpointSum",
+      "source_file": "DixmierFormal/Weyl/RamifiedFaceEndpointSum.lean",
+      "source_sha256": "7dded8ed1af6ff5fdba520ae0dde952e2f9b72821fd3a81a8a4147dfe011b655",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedFacePolynomial",
+      "source_file": "DixmierFormal/Weyl/RamifiedFacePolynomial.lean",
+      "source_sha256": "082da965e4daa1eb7d7a0888ea0ee2c67f5942a95fb6d5bacb6ba11e0aea3275",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedFacePowerRatio",
+      "source_file": "DixmierFormal/Weyl/RamifiedFacePowerRatio.lean",
+      "source_sha256": "b1a12b8362d700a80b4ef073532028280aab99461f350e76734894b7d5be964f",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedFaceStartSum",
+      "source_file": "DixmierFormal/Weyl/RamifiedFaceStartSum.lean",
+      "source_sha256": "914cc53f2028d423da0d032de5b9a3fa082e436b099193f81afeb7208607f6e1",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedFiniteCutSupport",
+      "source_file": "DixmierFormal/Weyl/RamifiedFiniteCutSupport.lean",
+      "source_sha256": "77568f7b65c837f70254306a9334137957187b1cb92ce0735b1b0241fddba653",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedFirstCoefficientAll",
+      "source_file": "DixmierFormal/Weyl/RamifiedFirstCoefficientAll.lean",
+      "source_sha256": "14ba7013dda29eb568be9617828c714b77a2e38c7b6952279b4a03a3033abb55",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedFirstContraction",
+      "source_file": "DixmierFormal/Weyl/RamifiedFirstContraction.lean",
+      "source_sha256": "85d92b0a09627bcfdeeee7b1f6082eea5539c4e997a191392569b586d28a8f81",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedFirstEndpointProportion",
+      "source_file": "DixmierFormal/Weyl/RamifiedFirstEndpointProportion.lean",
+      "source_sha256": "f1d7c75aaeacbd29db49bd984b7283fb8d579dfcd171f02c1a1662579c0f837c",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedFirstFaceBracket",
+      "source_file": "DixmierFormal/Weyl/RamifiedFirstFaceBracket.lean",
+      "source_sha256": "7bdd76ab7785617b4cf5953b96027cee318834041e43ee5ea4a7a4527f77c66d",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedFirstFaceCanonical",
+      "source_file": "DixmierFormal/Weyl/RamifiedFirstFaceCanonical.lean",
+      "source_sha256": "17cbeb8afa5be783953b9d377d0ad972068701211e63b5757ebf012a3a5f1299",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedFirstFaceDeterminant",
+      "source_file": "DixmierFormal/Weyl/RamifiedFirstFaceDeterminant.lean",
+      "source_sha256": "adbfa42feeebdc7f5626d30efcd89082d872b9d0e7f8b475389872f8d7da7470",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedFirstFaceExact",
+      "source_file": "DixmierFormal/Weyl/RamifiedFirstFaceExact.lean",
+      "source_sha256": "908ce881819bb7e46c2dda6fa3612206321580c013f517617ac05dcf27bd4da5",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedFirstFaceTopPairs",
+      "source_file": "DixmierFormal/Weyl/RamifiedFirstFaceTopPairs.lean",
+      "source_sha256": "38c5b4a69992fa377ec22c7f88dece43d42c781a78d25521bc1af70cc9429bd1",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedFirstSlopeAlignment",
+      "source_file": "DixmierFormal/Weyl/RamifiedFirstSlopeAlignment.lean",
+      "source_sha256": "c4f86bed17d3d1d03f1bd9101547a71be7cf65c24bd06199b1ced305dc458763",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedFirstSlopeSymmetry",
+      "source_file": "DixmierFormal/Weyl/RamifiedFirstSlopeSymmetry.lean",
+      "source_sha256": "88877d5230903ed52e1c512ba372dc2985dca4db06947c8a853124ca66c725aa",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedFullRootCornerPreservation",
+      "source_file": "DixmierFormal/Weyl/RamifiedFullRootCornerPreservation.lean",
+      "source_sha256": "8a666aa9b29070a912579c376832b2266222ef1ecbfa7be3fa579a10a88b6f1c",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedFullRootCutCommonSlope",
+      "source_file": "DixmierFormal/Weyl/RamifiedFullRootCutCommonSlope.lean",
+      "source_sha256": "ccc7ee4db168b6c4ae50b9c555245ee1c41e5f00f4e360b5e7cb0fba2e8e92f2",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedFullWeightFilter",
+      "source_file": "DixmierFormal/Weyl/RamifiedFullWeightFilter.lean",
+      "source_sha256": "228fd72bbda3df2c9afd31fa625593ecdbdfbcfe5b596549418749d4c1e5dfdb",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedGradeCountercontrol",
+      "source_file": "DixmierFormal/Weyl/RamifiedGradeCountercontrol.lean",
+      "source_sha256": "00ff787ab6eb6091aefd9e2224b737d11f9102b702560e436399b0eba7b9294a",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedGradeExactPair",
+      "source_file": "DixmierFormal/Weyl/RamifiedGradeExactPair.lean",
+      "source_sha256": "a4428a46990c3c65be5c5b6b8c6630e8d585bb28d6857154c5a1abc89a07f6c0",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedGradeFiltration",
+      "source_file": "DixmierFormal/Weyl/RamifiedGradeFiltration.lean",
+      "source_sha256": "67dc860d8d238b49cc2a11ba95dde8749d0c0273b90f4062e11b5c10e98d0a65",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedHomogeneousPolynomialRealization",
+      "source_file": "DixmierFormal/Weyl/RamifiedHomogeneousPolynomialRealization.lean",
+      "source_sha256": "927bb9cde206f535f3c584e8226b052f92a523fd8c2c2d8b9ffb396b4f0e0d52",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedJosephChainTransport",
+      "source_file": "DixmierFormal/Weyl/RamifiedJosephChainTransport.lean",
+      "source_sha256": "63fdc22e7e6f5f343007819976189322703b0add57b11880d289c9a51f9c286f",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedJosephTwoBracket",
+      "source_file": "DixmierFormal/Weyl/RamifiedJosephTwoBracket.lean",
+      "source_sha256": "2c38a9055bf39ff9969108c8cfff1b175880d0cdbe037e2fefd39e6f98ff387a",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedLaurent",
+      "source_file": "DixmierFormal/Weyl/RamifiedLaurent.lean",
+      "source_sha256": "af6055e686dae066945129a1fa43da5e9cfc4048ca1ec587ce0d8e4f8c1fc600",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedLeadingPoisson",
+      "source_file": "DixmierFormal/Weyl/RamifiedLeadingPoisson.lean",
+      "source_sha256": "30f32c1a31c133a537b2c61170a456be1df8f24846af1231ed971415976ef09c",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedLeadingPoissonConstant",
+      "source_file": "DixmierFormal/Weyl/RamifiedLeadingPoissonConstant.lean",
+      "source_sha256": "1605542789e6b39802cd1259f8519a979721ddfbca5af4d0ed52d823b3279a39",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedLeadingPoissonZero",
+      "source_file": "DixmierFormal/Weyl/RamifiedLeadingPoissonZero.lean",
+      "source_sha256": "91646d02339a30e59a37fba50709d7c665e6b012d134414861b41bde14f02026",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedLowerFaceEndingPoint",
+      "source_file": "DixmierFormal/Weyl/RamifiedLowerFaceEndingPoint.lean",
+      "source_sha256": "15ff554e39d8a22899b550d93af7112d9752f8e7356eca36b18faf24cd86a21b",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedMateFullRootAlignment",
+      "source_file": "DixmierFormal/Weyl/RamifiedMateFullRootAlignment.lean",
+      "source_sha256": "b12125d73c892ce43b5a1a2333a39002a7b3643494a7d231a3979551e8ca3650",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedMinimumGradeEnding",
+      "source_file": "DixmierFormal/Weyl/RamifiedMinimumGradeEnding.lean",
+      "source_sha256": "f3a13b5ed06339ad7ee53fd425746892b406067f95916a4fe72cba9d9ff4c8c2",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedNoncentralizingFirstFace",
+      "source_file": "DixmierFormal/Weyl/RamifiedNoncentralizingFirstFace.lean",
+      "source_sha256": "f1cd01e0f20eae213c0ced48d8608fe472ac8208630c92a369af5aede1917626",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedNormalForm",
+      "source_file": "DixmierFormal/Weyl/RamifiedNormalForm.lean",
+      "source_sha256": "618ea35a7dc470028cfc93dd287453852009fb75a33fb263e54b15194787f33e",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedNormalizedCornerGeometry",
+      "source_file": "DixmierFormal/Weyl/RamifiedNormalizedCornerGeometry.lean",
+      "source_sha256": "719db25afde665a49fc70804efdd5f2b1f0abc5663d14006f0e031dadf2d613d",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedNormalizedCornerPositiveWeights",
+      "source_file": "DixmierFormal/Weyl/RamifiedNormalizedCornerPositiveWeights.lean",
+      "source_sha256": "058e475856162cf17fb947610983e0399bfcdaa08c566ac8e5a18f8bc766bca8",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedNormalizedCornerThreshold",
+      "source_file": "DixmierFormal/Weyl/RamifiedNormalizedCornerThreshold.lean",
+      "source_sha256": "6fedf399b0724b0777c86598acc0e4cb78ee1577ec525ab246cb4d98e5f9b5d1",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedOneSidedFirstSlope",
+      "source_file": "DixmierFormal/Weyl/RamifiedOneSidedFirstSlope.lean",
+      "source_sha256": "eed80b6c111c65eb5ea06ed945a9e01a8045ce2efe62d814cfca48dd5abff5ee",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedOperator",
+      "source_file": "DixmierFormal/Weyl/RamifiedOperator.lean",
+      "source_sha256": "23b54521fa415e0496e39a5d192d993e4af8cae9eea5157523d3a326c2e0b6c8",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedOriginStripping",
+      "source_file": "DixmierFormal/Weyl/RamifiedOriginStripping.lean",
+      "source_sha256": "e1d8b7ae4afe0effe4a1852e8117bd5954dab8fca6454a56b67f1a5f8353974e",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedPBW",
+      "source_file": "DixmierFormal/Weyl/RamifiedPBW.lean",
+      "source_sha256": "2943ae58e7f80c7858a033514c7e62f5cc216cc991e270c4774ed87b3430568b",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedPBWData",
+      "source_file": "DixmierFormal/Weyl/RamifiedPBWData.lean",
+      "source_sha256": "3d7ba4ec5817362ffb30c1c703365eef650f9a6b0eb9872343c520e9df688ed5",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedPBWReconstruction",
+      "source_file": "DixmierFormal/Weyl/RamifiedPBWReconstruction.lean",
+      "source_sha256": "b7f0eece2a05242ea18b4f87e1cd08af4d40e919c189831e2973f2198935ffbb",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedPBWRightShift",
+      "source_file": "DixmierFormal/Weyl/RamifiedPBWRightShift.lean",
+      "source_sha256": "68be09cc43323a74e7841ffabc24fb352d68d6b32fa590ea7b10174d5490681a",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedPBWSurjectivity",
+      "source_file": "DixmierFormal/Weyl/RamifiedPBWSurjectivity.lean",
+      "source_sha256": "27808885f01715374af7c70ded4fcde6ded475913049e3d30268666ac2ca61c7",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedPBWZeroOrder",
+      "source_file": "DixmierFormal/Weyl/RamifiedPBWZeroOrder.lean",
+      "source_sha256": "09ddead6a287325a3695220e1c6b913f7eac571279c6aff4bbe7ff620aef6403",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedParallelCompanionFullRoot",
+      "source_file": "DixmierFormal/Weyl/RamifiedParallelCompanionFullRoot.lean",
+      "source_sha256": "25298581809b5048dea8333f9b8dcc9319bed4c90e4116981c72f149bf3e281b",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedParallelWeightNonzero",
+      "source_file": "DixmierFormal/Weyl/RamifiedParallelWeightNonzero.lean",
+      "source_sha256": "54ed50778a3b547c4145a936361d0f91904b60a6f0bc726e301356acd9471d7b",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedProductWeightAll",
+      "source_file": "DixmierFormal/Weyl/RamifiedProductWeightAll.lean",
+      "source_sha256": "f978ddf8d475a922e5275e0790af89a32c872e436126b317da282a1514c43c58",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedPurePowerAdjacentDirection",
+      "source_file": "DixmierFormal/Weyl/RamifiedPurePowerAdjacentDirection.lean",
+      "source_sha256": "6ce0f603874856c6ce7096429cb2abe3a41a5521517f677b73f0ce1c92db5590",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedRationalTiltDirection",
+      "source_file": "DixmierFormal/Weyl/RamifiedRationalTiltDirection.lean",
+      "source_sha256": "ec7fe6d224a66dfe8007ec98194abbf39f7fcba539f97039e470db83ccb359d3",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedRestrictedWeightFiltration",
+      "source_file": "DixmierFormal/Weyl/RamifiedRestrictedWeightFiltration.lean",
+      "source_sha256": "710abe19b4d1d805d1c02019b975de5927efab94d716ec0252d85fc6b35ff833",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedReversedConstantEndpoint",
+      "source_file": "DixmierFormal/Weyl/RamifiedReversedConstantEndpoint.lean",
+      "source_sha256": "224c95cc2078857359abdc556fb4a96ec69a56c99b8b9e1cfd75cf14450a0a89",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedReversedFaceStart",
+      "source_file": "DixmierFormal/Weyl/RamifiedReversedFaceStart.lean",
+      "source_sha256": "7facf744f81a6998f2309da530e99e9ed53c99f55f6588bc86a1e0fffd94e02a",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedShearAutomorphism",
+      "source_file": "DixmierFormal/Weyl/RamifiedShearAutomorphism.lean",
+      "source_sha256": "cb2996bf479891dcd8f1626520738da9a99597e281b45bb2d72ccc5696c84504",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedShearBase",
+      "source_file": "DixmierFormal/Weyl/RamifiedShearBase.lean",
+      "source_sha256": "d07518f25c370cbf22984e704737460d34330738a070bc518ddf5436910d1542",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedShearCandidate",
+      "source_file": "DixmierFormal/Weyl/RamifiedShearCandidate.lean",
+      "source_sha256": "65bdd94015668d8495c5e28d476a4f367d68cfc7dd1ecb362a340b875e853715",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedShearPBWSum",
+      "source_file": "DixmierFormal/Weyl/RamifiedShearPBWSum.lean",
+      "source_sha256": "dc61727064fb62f5f60b206a0a4aed14b932485af867040220ecb2af827517a8",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedShearTopFace",
+      "source_file": "DixmierFormal/Weyl/RamifiedShearTopFace.lean",
+      "source_sha256": "cf4e00c34c371f3f9eb54ba8fa12dc548c3c62c4e4c1cad80ba198663729b2db",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedTopCommutator",
+      "source_file": "DixmierFormal/Weyl/RamifiedTopCommutator.lean",
+      "source_sha256": "efa6bffb90205bb1508aaf59f16af47b03de2c89726deeee32e4324735552020",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedTopCutFace",
+      "source_file": "DixmierFormal/Weyl/RamifiedTopCutFace.lean",
+      "source_sha256": "ac45793c444a4dd60c0902e3ea2e0f4ba9f05b035615e1f6c74baf96fa961cb8",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedTopFaceDerivative",
+      "source_file": "DixmierFormal/Weyl/RamifiedTopFaceDerivative.lean",
+      "source_sha256": "1af33f3a01e4a7f01785574744cb1ee2cadd70369d77571ec48db56141ec0138",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedTopFacePolynomial",
+      "source_file": "DixmierFormal/Weyl/RamifiedTopFacePolynomial.lean",
+      "source_sha256": "cee920e8ff7ffbfd8de4f9a620ab7ae468df11772bcc823ace47f29421ed66ac",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedTopFaceSupport",
+      "source_file": "DixmierFormal/Weyl/RamifiedTopFaceSupport.lean",
+      "source_sha256": "033837aa60a5edd8e25f6b038b4d30d627793ed927bbe1d7374b8a9156314872",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedTopLaurentFaceLift",
+      "source_file": "DixmierFormal/Weyl/RamifiedTopLaurentFaceLift.lean",
+      "source_sha256": "83134407d7e611c3eaf2762bc2adb32e53091733f2ce9cab38ee57eb7bc187d2",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedTwoBracketScalarFixedPoint",
+      "source_file": "DixmierFormal/Weyl/RamifiedTwoBracketScalarFixedPoint.lean",
+      "source_sha256": "fa58601caa2da888098f05abbbb51b271168a2ad42009d765b18cd43f747a863",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedUnequalFaceExclusion",
+      "source_file": "DixmierFormal/Weyl/RamifiedUnequalFaceExclusion.lean",
+      "source_sha256": "2ea8b6e3e6dc8a7bd4cee846ee116456545d06b118b742439d762dc5854eaebb",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedUnequalSlopeGeometry",
+      "source_file": "DixmierFormal/Weyl/RamifiedUnequalSlopeGeometry.lean",
+      "source_sha256": "3c1126f5c5c60de13c4605368cc0214b98d44f3f13d5f9b1e28ae4ed214af1d6",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RamifiedWeightComponents",
+      "source_file": "DixmierFormal/Weyl/RamifiedWeightComponents.lean",
+      "source_sha256": "12ccb51e624ba9928293346c972f66618668c1dc84bbc5a5931587088ef306ad",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.RestrictedSignedFiltration",
+      "source_file": "DixmierFormal/Weyl/RestrictedSignedFiltration.lean",
+      "source_sha256": "2bf602c5d0d0714337cb42817a06f4e367933b54d5c94e61d1a7748e4284e9f7",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.ShiftIntertwining",
+      "source_file": "DixmierFormal/Weyl/ShiftIntertwining.lean",
+      "source_sha256": "330f9b4e39901620c6c57c5964dd8b477e02945960b5e633c2df4410b83433f3",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.SignedCoordinateBounds",
+      "source_file": "DixmierFormal/Weyl/SignedCoordinateBounds.lean",
+      "source_sha256": "0e6e37a3f81a4c44ef67379c81ff1e1be4398f66f5ba45db6152bc764e6d6618",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.SignedEuler",
+      "source_file": "DixmierFormal/Weyl/SignedEuler.lean",
+      "source_sha256": "91c38313c8785908356e5918224e9db44b8de2a910a42a76096d5010df4479ff",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.SignedWeightFiltration",
+      "source_file": "DixmierFormal/Weyl/SignedWeightFiltration.lean",
+      "source_sha256": "8937d182c1eb01bcfc8570fe1412c6061b6a160e1992837773c683848dfa031f",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.Statements",
+      "source_file": "DixmierFormal/Weyl/Statements.lean",
+      "source_sha256": "bc088c2b72ec6b5b046f8f646943b8f0f7c7f87b6f4e4fa8f8319a060396df0b",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.SymbolSurjectivity",
+      "source_file": "DixmierFormal/Weyl/SymbolSurjectivity.lean",
+      "source_sha256": "e985bcfd384d4485a37970346678246c7f06c6d8e7c15dce1ec469812d712c6b",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.TwoRootTotal",
+      "source_file": "DixmierFormal/Weyl/TwoRootTotal.lean",
+      "source_sha256": "57ef951da08b904f9e2031064ee537aaf7cd07ab70a47342b839d9f1be71932e",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.TwoRootTotalDegree",
+      "source_file": "DixmierFormal/Weyl/TwoRootTotalDegree.lean",
+      "source_sha256": "512520362391dbad6c754fa5b491626ddb7423bf0650afb4e7c9e30425dc7bcb",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.UnivariateTwoBracketDivisibility",
+      "source_file": "DixmierFormal/Weyl/UnivariateTwoBracketDivisibility.lean",
+      "source_sha256": "9a9aa52df72f4d990498bc665df25168d9e7121f74ab72b2fad0431e4f6f3ea4",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.UnivariateTwoBracketFactors",
+      "source_file": "DixmierFormal/Weyl/UnivariateTwoBracketFactors.lean",
+      "source_sha256": "5d4d20766bf7eddd55b56c63051a151842c4483c7fec7fe4dded18060d844bd7",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.UniversalDiagonalCaseMap",
+      "source_file": "DixmierFormal/Weyl/UniversalDiagonalCaseMap.lean",
+      "source_sha256": "e49f80d635ca8616cfe83d179a9fc7d4d43bec20b7b4114d851d2e9a7db79eab",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.Validation",
+      "source_file": "DixmierFormal/Weyl/Validation.lean",
+      "source_sha256": "fd9a041e40d0cc0298f5a8008f59421ce62515f09ad4064011e8e47c36a7e1d1",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.WordSpanSignedBounds",
+      "source_file": "DixmierFormal/Weyl/WordSpanSignedBounds.lean",
+      "source_sha256": "2c351bcbc685ec4ea9a3c1a43e700099b84c6c74421115c50965ca9b37c99b68",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.WordSymbolGrowth",
+      "source_file": "DixmierFormal/Weyl/WordSymbolGrowth.lean",
+      "source_sha256": "7622254b6ff1cad9d19111d9df400f47e0aa32a534f979da4ff04e0eb63ccd89",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.WordSymbolSpanRecovery",
+      "source_file": "DixmierFormal/Weyl/WordSymbolSpanRecovery.lean",
+      "source_sha256": "5799fb1f85a73a22ca3f4f000147f8acb9fa3bfaab5b367016477ce6082b1b1b",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.WronskianRatio",
+      "source_file": "DixmierFormal/Weyl/WronskianRatio.lean",
+      "source_sha256": "7fb1cac8631ba5cffb2811baf3041962d7a4d2c52b23fcdbc1ec58d3dafeb257",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.YAxisCaseDispatch",
+      "source_file": "DixmierFormal/Weyl/YAxisCaseDispatch.lean",
+      "source_sha256": "41a74095fbc3e3775fc3dbc1982b5b498ddfe32d20fb3fefe8ca82db2a3bd2f3",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    },
+    {
+      "module": "DixmierFormal.Weyl.YAxisPositiveHorizontalMass",
+      "source_file": "DixmierFormal/Weyl/YAxisPositiveHorizontalMass.lean",
+      "source_sha256": "0ad3152c75badb8ca811a018a4f0bbcad2b8fea64e6ade4b1d20e8c79899c411",
+      "consumer_root": "DixmierFormal.Weyl.GGVDegreeBoundProved"
+    }
+  ]
+}

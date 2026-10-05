@@ -1,0 +1,80 @@
+version: "v0.4"
+project:
+  name: "Six homogeneous components in the first Weyl algebra"
+  description: >-
+    Over any characteristic-zero field, two elements P and Q of the first
+    Weyl algebra satisfying QP-PQ=1 generate the algebra when P has at most
+    six nonzero homogeneous components for deg X=1 and deg Y=-1.
+    The degree, order and mass of Q are unrestricted. The proof combines
+    sparse-polynomial rigidity with internally proved Newton and Weyl-algebra
+    structural results.
+  authors:
+    - name: "Idris Ali Shaik"
+  responsible_maintainers:
+    - name: "Idris Ali Shaik"
+  license: "MIT"
+sources:
+  - title: "The rank-one Dixmier conjecture for elements of mass at most six"
+    authors: ["Idris Ali Shaik"]
+    type: "article"
+    id: "Unpublished manuscript, source version 1.8"
+    location: "Theorem 1.1"
+    relationship: "formalizes"
+    author_endorsement: "participated"
+    note: >-
+      The informal manuscript precedes the formalization. Its SHA-256 is
+      5cf720da5092e8fe13650d4ebe3357ed21cf90df1684af4bc49db06801126b0a.
+      SOURCE_MANIFEST.json identifies every substantive source module before
+      extraction and the compatibility port.
+  - title: "Guccione, Guccione and Valqui: Weyl-algebra structural results"
+    authors: ["Jorge A. Guccione", "Juan J. Guccione", "Christian Valqui"]
+    type: "article"
+    id: "arXiv:2402.11135v1 and arXiv:1111.6100v3"
+    relationship: "background"
+    author_endorsement: "not-contacted"
+    note: "The six structural interfaces consumed by the theorem are proved internally."
+classification:
+  arxiv: ["math.RA"]
+status:
+  scope: "One mass-six generation theorem, over every characteristic-zero field."
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: ["propext", "Classical.choice", "Quot.sound"]
+  main_results:
+    - declaration: "Dixmier.Palomar.massSixGeneration"
+      file: "Solution.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "comparator.json"
+      literature_dependencies: []
+automation:
+  methods:
+    - method: "agent"
+      framework: "OpenAI Codex"
+      tool_setup: "Lean, Mathlib, source and statement audits, and Palomar release tooling."
+      prompting_notes: "User-directed formalization and separate release preparation."
+  notes: >-
+    AI assisted proof development, diagnostics, formalization and packaging.
+    The original pinned formalization passed its full clean build and axiom
+    audit. The extracted supported-toolchain build and model axiom reports pass.
+    Comparator and independent-kernel validation require Linux and are pending.
+fidelity:
+  divergences: >-
+    The selected theorem retains the source field quantifiers, grading, six
+    component bound and unrestricted mate. The faithful differential-operator
+    realization is connected to the abstract first Weyl algebra by a proved
+    equivalence. This repository is a substantive extraction of the completed
+    local proof cone, with module-visibility and toolchain compatibility changes.
+review:
+  status: "agent-reviewed"
+  notes: >-
+    Source statement and dependency audits were performed with AI assistance.
+    No independent human mathematical review or novelty clearance is claimed.
+    Palomar mechanical verification and registration have not occurred.
+alignment:
+  statements:
+    - source: "Manuscript Theorem 1.1"
+      lean: "Dixmier.Palomar.massSixGeneration"
+      module: "Solution"
+      status: "in-progress"
+      note: "Supported-toolchain build passed; exact Comparator alignment remains pending Linux validation."

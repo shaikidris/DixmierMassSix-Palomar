@@ -1,0 +1,21 @@
+name = "DixmierMassSixPalomar"
+version = "0.1.0"
+defaultTargets = ["Solution", "SubmissionAudit"]
+
+[leanOptions]
+autoImplicit = false
+relaxedAutoImplicit = false
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "dd56d02cb7a58fa066c4a2c7fddec3cbb59ae8df"
+
+[[lean_lib]]
+name = "DixmierFormal"
+[[lean_lib]]
+name = "Challenge"
+[[lean_lib]]
+name = "Solution"
+[[lean_lib]]
+name = "SubmissionAudit"
