@@ -9,8 +9,9 @@ The pipeline is PalomarSubmission d4e41c1d5b0d114c4859e6e5831dc6d3ad1d0d44,
 with mode full and execution profile palomar-standard-v1. The selected result
 is Dixmier.Palomar.massSixGeneration. The Comparator path is comparator.json.
 
-The local regression suite passes 15 checks. The supported Lean build passes;
-normal Comparator and independent kernels await the Linux rehearsal. This
+The guard regression suite checks the request and snapshot bindings. The
+registered baseline passed official Comparator and independent kernels, as
+recorded in SOURCE_PROVENANCE.md. Each candidate requires its own replay. This
 workflow is a mechanical rehearsal and performs no Palomar intake,
 ownership proof, registration, or other registry-state operation.
 
