@@ -1,29 +1,24 @@
-# Palomar preparation tracker
+# Palomar release status
 
-Approved scope: one mass-six generation entry, substantive strict-cone
-extraction, compatibility port, MIT licence, and the recorded size ceilings.
-Publication and live Palomar state changes are not authorized.
+The active registry entry is
+[PALOMAR-2026-10-05-000006 version 1](https://palomar-registry.org/entry?id=PALOMAR-2026-10-05-000006&version=1).
+Its immutable source, report digests and dependency roles are recorded in
+SOURCE_PROVENANCE.md.
 
-| Gate | Status | Evidence or next action |
-|---|---|---|
-| Selected mathematical statement | Fixed | Arbitrary characteristic-zero field; unrestricted mate; no GGV premise |
-| Substantive extraction | Prepared | 443 original modules and hashes in SOURCE_MANIFEST.json |
-| Original source preservation | Verified | All 443 source hashes match |
-| Supported compatibility build | PASS | Lean 4.35.0-rc3; matching pinned Mathlib; 4,025 jobs |
-| Root and model axiom reports | PASS | Generation, abstract/operator equivalence, PBW mass identity: standard three axioms only |
-| Module/source admission | PASS | Pinned official source validator: 447 files, no issues |
-| Official metadata parser | PASS | Pinned PalomarSubmission parser accepted formalization.yaml |
-| Strict import cone and ceilings | PASS | 447 modules, 64,587 lines; zero unreachable; Challenge 84 lines |
-| Comparator identity | Not verified | Normal sandbox attempt exited 2: bwrap requires Linux namespaces |
-| Independent kernels / full workflow | Not run | Requires the pinned complete Linux workflow and mechanical report |
-| Committed publication snapshot | Pending | Freeze exact source after final provenance and Linux validation preparation |
-| Publication and live submission | Not authorized | Separate approval and manual Palomar handoff required |
+| Registered baseline gate | Status |
+| --- | --- |
+| Selected theorem | Manuscript Theorem 1.1; arbitrary characteristic-zero field; unrestricted mate |
+| Substantive proof cone | 443 source modules; 447 total Lean files |
+| Comparator and kernels | Official PASS: Lean, nanoda and con-ron |
+| Challenge rendering | Official PASS |
+| Automated registry review | No warnings |
+| Public registration and preservation | Confirmed |
 
-Verifier: PalomarSubmission 65f0154ed776cd26c224254aa57b379137f28b0d.
-Lean: leanprover/lean4:v4.35.0-rc3.
-Mathlib: dd56d02cb7a58fa066c4a2c7fddec3cbb59ae8df.
+The local revision aligns the title and complete metadata with the final
+manuscript and the public registration record. It adds no selected theorem
+and changes no theorem signature or proof. Its local checks are recorded in
+`../evidence/2026-10-05-metadata-revision/`.
 
-Evidence is saved in ../evidence/2026-10-04-palomar-validation/.
-Compatibility changes affect the extracted release only. The original formal
-source and manuscript remain unchanged. No Comparator or independent-kernel
-acceptance is claimed.
+A new immutable candidate must pass its own exact preflight, full replay,
+rendering and metadata review before submission as a new version. Local
+preparation does not authorize publication or live registry actions.

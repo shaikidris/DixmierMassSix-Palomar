@@ -1,14 +1,16 @@
 version: v0.4
 project:
-  name: Six homogeneous components in the first Weyl algebra
+  name: The rank-one Dixmier conjecture for elements of mass at most six
   description: Over any characteristic-zero field, two elements P and Q of the first Weyl algebra satisfying
     QP-PQ=1 generate the algebra when P has at most six nonzero homogeneous components for deg X=1 and
     deg Y=-1. The degree, order and mass of Q are unrestricted. The proof combines sparse-polynomial rigidity
     with internally proved Newton and Weyl-algebra structural results.
   authors:
   - name: Idris Ali Shaik
+    orcid: 0009-0009-9699-9712
   responsible_maintainers:
   - name: Idris Ali Shaik
+    orcid: 0009-0009-9699-9712
   license: MIT
 sources:
 - title: The rank-one Dixmier conjecture for elements of mass at most six
@@ -22,16 +24,30 @@ sources:
   note: 'Preprint version 1.10.5; Zenodo DOI reserved, publication pending. Mathematical manuscript SHA-256:
     85145159671e864be4dd8ae3c53220de3337f787141e5bc09a20408ff1561ce8. The informal manuscript precedes
     the formalization; SOURCE_MANIFEST.json identifies the substantive source modules and extraction hashes.'
-- title: 'Guccione, Guccione and Valqui: Weyl-algebra structural results'
+- title: Number of homogeneous components of counterexamples to the Dixmier conjecture
   authors:
   - Jorge A. Guccione
   - Juan J. Guccione
   - Christian Valqui
   type: paper
-  id: arXiv:2402.11135v1 and arXiv:1111.6100v3
+  id: arXiv:2402.11135v1
   relationship: background
   author_endorsement: not-contacted
-  note: The six structural interfaces consumed by the theorem are proved internally.
+  note: 'Published in Communications in Algebra 53 (2025), no. 3, 1307–1319;
+    DOI 10.1080/00927872.2024.2407991. Structural results used by the selected theorem
+    are proved internally rather than admitted as literature axioms.'
+- title: The Dixmier conjecture and the shape of possible counterexamples
+  authors:
+  - Jorge A. Guccione
+  - Juan J. Guccione
+  - Christian Valqui
+  type: paper
+  id: arXiv:1111.6100v3
+  relationship: background
+  author_endorsement: not-contacted
+  note: 'Published in Journal of Algebra 399 (2014), 581–633;
+    DOI 10.1016/j.jalgebra.2013.10.011. The structural interfaces consumed by
+    the selected theorem are proved internally.'
 classification:
   arxiv:
   - math.RA
@@ -40,7 +56,10 @@ classification:
   - 16W20
   - 16W50
 status:
-  scope: One mass-six generation theorem, over every characteristic-zero field.
+  scope: 'Manuscript Theorem 1.1 over every characteristic-zero field, with no
+    degree, order or mass bound on the mate. Mass five is included. Symmetry gives
+    the same conclusion when Q has mass at most six. The scalar classification
+    and pure-power face exclusion are not separately selected registry theorems.'
   sorry_count: 0
   sorry_in_definitions: 0
   axioms:
@@ -63,26 +82,33 @@ automation:
     framework: OpenAI Codex
     tool_setup: Lean, Mathlib, source and statement audits, and Palomar release tooling.
     prompting_notes: User-directed formalization and separate release preparation.
-  notes: 'AI assisted proof development, formalization and packaging. Full Linux mechanical rehearsal
-    passed for source commit b2601df23b5c26969595d8546d5b58b83de4f911, including Challenge/Solution comparison
-    and Lean, nanoda and con-ron kernel checks. Workflow: https://github.com/shaikidris/DixmierMassSix-Palomar/actions/runs/37264857021.
-    A deliberate Mathlib compatibility port targets c55e6e786f49471c72fbddbec5415808896aec1e; exact-candidate
-    proof and rendering rehearsals are required before readiness.'
+  notes: 'OpenAI Codex assisted with proof development, formalization and packaging.
+    The registered baseline passed official Challenge/Solution comparison and Lean,
+    nanoda and con-ron verification: https://github.com/PalomarRegistry/PalomarSubmission/actions/runs/37338549288.
+    Its official Challenge rendering passed: https://github.com/PalomarRegistry/PalomarSubmission/actions/runs/37341477335.
+    SOURCE_PROVENANCE.md identifies the immutable baseline and the dependency pins.'
 fidelity:
   divergences: The selected theorem retains the source field quantifiers, grading, six component bound
     and unrestricted mate. The faithful differential-operator realization is connected to the abstract
     first Weyl algebra by a proved equivalence. This repository is a substantive extraction of the completed
     local proof cone, with module-visibility and toolchain compatibility changes.
+    For registered version 1, the authoritative substantive source is
+    shaikidris/DixmierMassSix-Palomar at 61c0318729cc8539663a753c48be1b9a51b897ca.
+    That SHA identifies the registered baseline, not this revised snapshot;
+    the submitted commit recorded by Palomar identifies each subsequent version.
 review:
   status: agent-reviewed
-  notes: Source statement and dependency audits used AI assistance. The full mechanical rehearsal passed
-    on 5 October 2026; its report has no errors or warnings. No independent human review, novelty clearance
-    or Palomar registration is claimed.
+  notes: 'The baseline is publicly registered as PALOMAR-2026-10-05-000006 version 1;
+    its automated registry review records no warnings. Independent human review and
+    novelty clearance are not established by registration. Verification of that
+    immutable baseline does not certify a subsequent revised snapshot.'
 alignment:
   statements:
   - source: Manuscript Theorem 1.1
     lean: Dixmier.Palomar.massSixGeneration
     module: Solution
     status: verified
-    note: Challenge/Solution comparison passed for historical proof commit b2601df23b5c26969595d8546d5b58b83de4f911.
-      The replacement dependency graph requires a fresh exact-candidate full rehearsal and renderer check.
+    note: 'The arbitrary-field statement, grading, six-component bound and unrestricted
+      mate agree with Manuscript Theorem 1.1. Comparator and all three kernels accepted
+      the registered baseline. The theorem signature and Solution proof are unchanged
+      by this metadata revision.'

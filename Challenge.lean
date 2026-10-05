@@ -11,7 +11,7 @@ public import Mathlib.Data.Complex.Basic
 @[expose] public section
 
 /-!
-# Six homogeneous components in the first Weyl algebra
+# The rank-one Dixmier conjecture for elements of mass at most six
 
 The algebra is realized by multiplication and differentiation on K[X]. In
 characteristic zero this is the faithful first Weyl algebra representation.
