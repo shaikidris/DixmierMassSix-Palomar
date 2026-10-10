@@ -1,0 +1,25 @@
+{
+  "isabelle_version": "Isabelle2025-2",
+  "session": "Dixmier_Mass_Six",
+  "theories": 457,
+  "source_files": 464,
+  "submitted_archive_sha256": "e0c8368d246107a6a865b74c1ad0b17b90d6fb1339e56254898cfd43d2e26545",
+  "source_comparison": "All files match the submitted archive except README.md (build instructions and current licensing wording).",
+  "local_validation_utc": "2026-10-08T09:58:45.968794+00:00",
+  "local_build_exit": 0,
+  "lint_exit": 0,
+  "lint_findings": 0,
+  "recursive_oracle_and_ambient_hypothesis_guard_passed": true,
+  "quick_and_dirty": false,
+  "afp_review_status": "Submitted; editorial acceptance pending.",
+  "license": "BSD-3-Clause",
+  "publication_copy_build": {
+    "completed_utc": "2026-10-10T20:37:43.760760+00:00",
+    "exit_code": 0,
+    "total_elapsed": "0:08:59",
+    "session_elapsed": "0:08:13",
+    "document_elapsed": "0:00:30",
+    "command": "isabelle build -j1 -o threads=2 -o document=false -D isabelle/Dixmier_Mass_Six Dixmier_Mass_Six",
+    "recursive_oracle_and_ambient_hypothesis_guard_passed": true
+  }
+}
