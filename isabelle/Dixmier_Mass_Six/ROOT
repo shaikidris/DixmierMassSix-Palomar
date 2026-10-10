@@ -1,0 +1,7 @@
+chapter AFP
+
+session Dixmier_Mass_Six = "HOL-Computational_Algebra" +
+  options [document = pdf, document_build = build, timeout = 1800, quick_and_dirty = false]
+  sessions "HOL-Algebra" "HOL-Analysis" "HOL-Library"
+  theories Dixmier_Mass_Six
+  document_files "root.tex" "root.bib" "build"

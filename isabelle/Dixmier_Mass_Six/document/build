@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# Portable Isabelle document builder; Tectonic handles its own BibTeX passes.
+set -euo pipefail
+if [ "${1:-}" != pdf ]; then
+  echo "This document builder requires PDF output." >&2
+  exit 2
+fi
+variant="${2:-document}"
+root_name=root
+if [ -f "root_${variant}.tex" ]; then root_name="root_${variant}"; fi
+if command -v lualatex >/dev/null 2>&1; then
+  lualatex -interaction=nonstopmode -halt-on-error "${root_name}.tex"
+  if grep -q '\\bibdata' "${root_name}.aux"; then bibtex "$root_name"; fi
+  lualatex -interaction=nonstopmode -halt-on-error "${root_name}.tex"
+  lualatex -interaction=nonstopmode -halt-on-error "${root_name}.tex"
+elif command -v tectonic >/dev/null 2>&1; then
+  tectonic --keep-logs --keep-intermediates "${root_name}.tex"
+else
+  echo "Document generation requires LuaLaTeX/BibTeX or Tectonic on PATH." >&2
+  exit 127
+fi
